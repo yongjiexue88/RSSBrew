@@ -22,6 +22,10 @@ export async function loadHistory(): Promise<HistoryData> {
       logger.info('No history file found, starting fresh');
       return { urls: {} };
     }
+    if (err instanceof SyntaxError) {
+      logger.warn('History file is corrupted or empty (SyntaxError), starting fresh');
+      return { urls: {} };
+    }
     logger.error('Failed to load history', err);
     return { urls: {} };
   }

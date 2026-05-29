@@ -61,6 +61,9 @@ export async function collectRedditRss(sources: SourceConfig[]): Promise<Standar
         const itemUrl = entry.link ?? '';
         if (!itemUrl) continue;
 
+        const rawSummary = entry.contentSnippet ?? entry.content;
+        const summary = rawSummary ? rawSummary.substring(0, 500) : undefined;
+
         const item: StandardItem = {
           id: `reddit-${simpleHash(itemUrl)}`,
           title: entry.title ?? '(untitled)',
@@ -70,10 +73,14 @@ export async function collectRedditRss(sources: SourceConfig[]): Promise<Standar
           author: entry.creator ?? entry['dc:creator'] as string | undefined,
           publishedAt: parseDate(entry.pubDate ?? entry.isoDate),
           fetchedAt: nowISO(),
-          summary: entry.contentSnippet ?? entry.content,
+          summary,
           tags: [],
           relevanceScore: 0,
-          raw: entry,
+          raw: {
+            title: entry.title,
+            link: entry.link,
+            pubDate: entry.pubDate,
+          },
         };
 
         allItems.push(item);

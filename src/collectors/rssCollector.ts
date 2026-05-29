@@ -59,11 +59,13 @@ export async function collectRss(sources: SourceConfig[]): Promise<StandardItem[
         if (!itemUrl) continue;
 
         // Handle various RSS field names for content/summary
-        const summary =
+        const rawSummary =
           entry.contentSnippet ??
           entry.content ??
           (entry as Record<string, unknown>)['summary'] as string | undefined ??
           (entry as Record<string, unknown>)['description'] as string | undefined;
+
+        const summary = rawSummary ? rawSummary.substring(0, 500) : undefined;
 
         const item: StandardItem = {
           id: `rss-${simpleHash(itemUrl)}`,
@@ -77,10 +79,13 @@ export async function collectRss(sources: SourceConfig[]): Promise<StandardItem[
           ),
           fetchedAt: nowISO(),
           summary,
-          content: entry.content,
           tags: [],
           relevanceScore: 0,
-          raw: entry,
+          raw: {
+            title: entry.title,
+            link: entry.link,
+            pubDate: entry.pubDate,
+          },
         };
 
         allItems.push(item);

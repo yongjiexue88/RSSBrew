@@ -1,6 +1,15 @@
 import type { StandardItem } from '../types/item.js';
 import { todayDateString } from '../utils/date.js';
 
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 export function generateHtmlDigest(
   items: StandardItem[],
   stats: { totalCollected: number; afterDedupe: number; afterFilter: number }
@@ -57,23 +66,24 @@ export function generateHtmlDigest(
     const score = item.scores?.finalScore ?? 0;
     const reasons = item.scores?.reasons?.slice(0, 3) || [];
     let card = `<div class="item">`;
-    card += `<h3>${index ? index + '. ' : ''}<a href="${item.url}" target="_blank">${item.title}</a></h3>`;
+    card += `<h3>${index ? index + '. ' : ''}<a href="${escapeHtml(item.url)}" target="_blank">${escapeHtml(item.title)}</a></h3>`;
     
     card += `<div class="item-meta">`;
-    card += `<span class="badge badge-source">${item.source}</span>`;
+    card += `<span class="badge badge-source">${escapeHtml(item.source)}</span>`;
     card += `<span class="badge badge-score">Score: ${score}</span>`;
     item.tags.forEach(tag => {
-      card += `<span class="badge badge-tag">${tag}</span>`;
+      card += `<span class="badge badge-tag">${escapeHtml(tag)}</span>`;
     });
     card += `</div>`;
 
     if (item.summary) {
-      card += `<p style="font-size: 13px; color: #475569; margin: 8px 0;">${item.summary.substring(0, 150)}...</p>`;
+      const escapedSummary = escapeHtml(item.summary.substring(0, 150));
+      card += `<p style="font-size: 13px; color: #475569; margin: 8px 0;">${escapedSummary}...</p>`;
     }
 
     if (reasons.length > 0) {
       card += `<ul class="reason-list">`;
-      reasons.forEach(r => { card += `<li>${r}</li>`; });
+      reasons.forEach(r => { card += `<li>${escapeHtml(r)}</li>`; });
       card += `</ul>`;
     }
     card += `</div>`;

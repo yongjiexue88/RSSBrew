@@ -39,7 +39,7 @@ export function filterItems(items: StandardItem[], keywords: KeywordsConfig): St
 
     // Rule 4: vague Reddit titles (only for reddit / reddit_search)
     if (item.sourceType === 'reddit' || item.sourceType === 'reddit_search') {
-      const trimmedLower = item.title.trim().toLowerCase();
+      const trimmedLower = item.title.trim().toLowerCase().replace(/[^\w\s]/g, '');
       if (VAGUE_REDDIT_TITLES.has(trimmedLower)) {
         const matchesPain = painKeywords.some((kw) => titleLower.includes(kw));
         if (!matchesPain) {
