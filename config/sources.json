@@ -1,0 +1,78 @@
+{
+  "reddit": [
+    {
+      "name": "Reddit SaaS",
+      "url": "https://www.reddit.com/r/SaaS/.rss",
+      "category": "startup"
+    },
+    {
+      "name": "Reddit Startups",
+      "url": "https://www.reddit.com/r/startups/.rss",
+      "category": "startup"
+    },
+    {
+      "name": "Reddit SideProject",
+      "url": "https://www.reddit.com/r/SideProject/.rss",
+      "category": "startup"
+    },
+    {
+      "name": "Reddit Entrepreneur",
+      "url": "https://www.reddit.com/r/Entrepreneur/.rss",
+      "category": "startup"
+    },
+    {
+      "name": "Reddit WebDev",
+      "url": "https://www.reddit.com/r/webdev/.rss",
+      "category": "developer"
+    },
+    {
+      "name": "Reddit SelfHosted",
+      "url": "https://www.reddit.com/r/selfhosted/.rss",
+      "category": "developer"
+    }
+  ],
+  "rss": [
+    {
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "category": "developer"
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category": "infrastructure"
+    },
+    {
+      "name": "Stripe Blog",
+      "url": "https://stripe.com/blog/feed.rss",
+      "category": "saas"
+    },
+    {
+      "name": "Supabase Blog",
+      "url": "https://supabase.com/rss.xml",
+      "category": "developer-tool"
+    },
+    {
+      "name": "Vercel Blog",
+      "url": "https://vercel.com/blog/rss.xml",
+      "category": "developer-tool"
+    }
+  ],
+  "githubTrending": [
+    {
+      "name": "GitHub Trending TypeScript",
+      "url": "https://github.com/trending/typescript"
+    },
+    {
+      "name": "GitHub Trending Python",
+      "url": "https://github.com/trending/python"
+    },
+    {
+      "name": "GitHub Trending Overall",
+      "url": "https://github.com/trending"
+    }
+  ],
+  "hackerNews": {
+    "limit": 30
+  }
+}

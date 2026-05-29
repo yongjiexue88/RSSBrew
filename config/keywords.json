@@ -1,0 +1,57 @@
+{
+  "painPoint": [
+    "pain",
+    "problem",
+    "struggle",
+    "frustrated",
+    "hate",
+    "annoying",
+    "manual",
+    "expensive",
+    "broken",
+    "slow",
+    "hard to",
+    "looking for",
+    "alternative",
+    "how do you",
+    "any tool",
+    "recommend"
+  ],
+  "startupIdea": [
+    "tool",
+    "automation",
+    "workflow",
+    "saas",
+    "mvp",
+    "side project",
+    "productized",
+    "template",
+    "dashboard",
+    "agent",
+    "ai assistant"
+  ],
+  "marketing": [
+    "launch",
+    "growth",
+    "seo",
+    "cold email",
+    "landing page",
+    "pricing",
+    "positioning",
+    "waitlist",
+    "conversion",
+    "distribution"
+  ],
+  "developerTool": [
+    "api",
+    "sdk",
+    "database",
+    "cli",
+    "framework",
+    "library",
+    "open source",
+    "github",
+    "devtool",
+    "observability"
+  ]
+}
