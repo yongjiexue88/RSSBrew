@@ -34,8 +34,8 @@ jobs:
       - name: Find generated report
         id: report
         run: |
-          REPORT_FILE=$(ls -t output/*.md | head -n 1)
-          REPORT_DATE=$(basename "$REPORT_FILE" .md)
+          REPORT_FILE=$(ls -t output/*.html | head -n 1)
+          REPORT_DATE=$(basename "$REPORT_FILE" .html)
 
           echo "file=$REPORT_FILE" >> "$GITHUB_OUTPUT"
           echo "date=$REPORT_DATE" >> "$GITHUB_OUTPUT"
@@ -75,7 +75,7 @@ jobs:
               "from": os.environ["MAIL_FROM"],
               "to": to_emails,
               "subject": f"Daily Startup Radar - {os.environ['REPORT_DATE']}",
-              "text": content
+              "html": content
           }
 
           print(json.dumps(payload))

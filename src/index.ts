@@ -20,6 +20,7 @@ import { tagItems } from './services/tagger.js';
 import { rankItems } from './services/rank.js';
 import { loadHistory, updateHistory } from './services/historyStore.js';
 import { generateMarkdownDigest } from './services/markdownDigest.js';
+import { generateHtmlDigest } from './services/htmlDigest.js';
 
 async function loadJson<T>(filePath: string): Promise<T> {
   const content = await readFile(filePath, 'utf-8');
@@ -97,16 +98,19 @@ async function main(): Promise<void> {
   logger.info('Updating history...');
   await updateHistory(history, ranked);
 
-  // 10. Generate Markdown digest
-  logger.info('Generating Markdown digest...');
+  // 10. Generate Markdown and HTML digests
+  logger.info('Generating Markdown and HTML digests...');
   const markdown = generateMarkdownDigest(ranked, { totalCollected, afterDedupe, afterFilter });
+  const html = generateHtmlDigest(ranked, { totalCollected, afterDedupe, afterFilter });
 
-  // 11. Save digest
+  // 11. Save digests
   const outputDir = path.join(process.cwd(), 'output');
   await mkdir(outputDir, { recursive: true });
-  const digestPath = path.join(outputDir, `${todayDateString()}.md`);
-  await writeFile(digestPath, markdown, 'utf-8');
-  logger.info(`Digest saved to ${digestPath}`);
+  const digestPathMd = path.join(outputDir, `${todayDateString()}.md`);
+  const digestPathHtml = path.join(outputDir, `${todayDateString()}.html`);
+  await writeFile(digestPathMd, markdown, 'utf-8');
+  await writeFile(digestPathHtml, html, 'utf-8');
+  logger.info(`Digests saved to output/`);
 
   // 12. Print summary
   const topItem = ranked[0];
