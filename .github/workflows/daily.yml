@@ -69,10 +69,11 @@ jobs:
 
           report_file = Path(os.environ["REPORT_FILE"])
           content = report_file.read_text(encoding="utf-8")
+          to_emails = [e.strip() for e in os.environ["MAIL_TO"].split(",")]
 
           payload = {
               "from": os.environ["MAIL_FROM"],
-              "to": [os.environ["MAIL_TO"]],
+              "to": to_emails,
               "subject": f"Daily Startup Radar - {os.environ['REPORT_DATE']}",
               "text": content
           }
