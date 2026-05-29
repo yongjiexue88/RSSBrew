@@ -14,11 +14,9 @@ import { collectGitHubTrending } from './collectors/githubTrendingCollector.js';
 
 // Services
 import { normalizeItems } from './services/normalize.js';
-import { dedupeItems } from './services/dedupe.js';
 import { filterItems } from './services/filter.js';
 import { tagItems } from './services/tagger.js';
 import { rankItems } from './services/rank.js';
-import { loadHistory, updateHistory } from './services/historyStore.js';
 import { generateMarkdownDigest } from './services/markdownDigest.js';
 
 async function loadJson<T>(filePath: string): Promise<T> {
@@ -66,10 +64,9 @@ async function main(): Promise<void> {
   logger.info('Normalizing items...');
   const normalized = normalizeItems(allItems);
 
-  // 4. Load history and dedupe
-  logger.info('Loading history and deduplicating...');
-  const history = await loadHistory();
-  const deduped = dedupeItems(normalized, history);
+  // 4. Dedupe
+  logger.info('Skipping history deduplication (snapshot mode)...');
+  const deduped = normalized;
   const afterDedupe = deduped.length;
 
   // 5. Hard filter (remove junk)
@@ -94,8 +91,7 @@ async function main(): Promise<void> {
   logger.info(`Raw data saved to ${rawPath}`);
 
   // 9. Update history
-  logger.info('Updating history...');
-  await updateHistory(history, ranked);
+  // History tracking disabled to allow daily snapshots of top items
 
   // 10. Generate Markdown digest
   logger.info('Generating Markdown digest...');
