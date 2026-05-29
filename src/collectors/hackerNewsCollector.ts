@@ -17,6 +17,20 @@ interface HNItem {
   type?: string;
 }
 
+const FEED_SOURCE_MAP: Record<string, string> = {
+  topstories: 'Hacker News',
+  beststories: 'HN Best',
+  showstories: 'Show HN',
+  askstories: 'Ask HN',
+};
+
+const FEED_CATEGORY_MAP: Record<string, string> = {
+  topstories: 'hn-top',
+  beststories: 'hn-best',
+  showstories: 'show-hn',
+  askstories: 'ask-hn',
+};
+
 async function fetchWithTimeout(url: string, timeoutMs: number): Promise<Response> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
@@ -41,14 +55,15 @@ async function fetchHNItem(id: number): Promise<HNItem | null> {
   }
 }
 
-function mapToStandardItem(item: HNItem): StandardItem {
+function mapToStandardItem(item: HNItem, feedType: string): StandardItem {
   const hnUrl = `https://news.ycombinator.com/item?id=${item.id}`;
   return {
     id: `hn-${item.id}`,
     title: item.title ?? '(untitled)',
     url: item.url || hnUrl,
-    source: 'Hacker News',
+    source: FEED_SOURCE_MAP[feedType] ?? 'Hacker News',
     sourceType: 'hacker_news',
+    category: FEED_CATEGORY_MAP[feedType],
     author: item.by,
     publishedAt: item.time ? new Date(item.time * 1000).toISOString() : undefined,
     fetchedAt: nowISO(),
@@ -61,37 +76,54 @@ function mapToStandardItem(item: HNItem): StandardItem {
 }
 
 export async function collectHackerNews(config: HackerNewsConfig): Promise<StandardItem[]> {
-  const limit = config.limit ?? 30;
-  logger.info(`Fetching top ${limit} Hacker News stories...`);
-
-  let topIds: number[];
-  try {
-    const response = await fetchWithTimeout(`${HN_API_BASE}/topstories.json`, FETCH_TIMEOUT_MS);
-    if (!response.ok) {
-      logger.error(`Failed to fetch HN top stories: HTTP ${response.status}`);
-      return [];
-    }
-    topIds = (await response.json()) as number[];
-  } catch (error) {
-    logger.error('Failed to fetch HN top stories:', error);
+  if (config.enabled === false) {
+    logger.info('Hacker News collector is disabled, skipping.');
     return [];
   }
 
-  const idsToFetch = topIds.slice(0, limit);
-  const items: StandardItem[] = [];
+  const seenIds = new Set<number>();
+  const allItems: StandardItem[] = [];
 
-  // Fetch in batches to be polite
-  for (let i = 0; i < idsToFetch.length; i += BATCH_SIZE) {
-    const batch = idsToFetch.slice(i, i + BATCH_SIZE);
-    const results = await Promise.allSettled(batch.map((id) => fetchHNItem(id)));
+  for (const feedType of config.feeds) {
+    logger.info(`Fetching HN feed: ${feedType} (limit ${config.limitPerFeed})...`);
 
-    for (const result of results) {
-      if (result.status === 'fulfilled' && result.value) {
-        items.push(mapToStandardItem(result.value));
+    let storyIds: number[];
+    try {
+      const response = await fetchWithTimeout(`${HN_API_BASE}/${feedType}.json`, FETCH_TIMEOUT_MS);
+      if (!response.ok) {
+        logger.error(`Failed to fetch HN ${feedType}: HTTP ${response.status}`);
+        continue;
+      }
+      storyIds = (await response.json()) as number[];
+    } catch (error) {
+      logger.error(`Failed to fetch HN ${feedType}:`, error);
+      continue;
+    }
+
+    // Filter out already-seen IDs, then limit
+    const newIds = storyIds.filter((id) => !seenIds.has(id));
+    const idsToFetch = newIds.slice(0, config.limitPerFeed);
+
+    // Mark as seen
+    for (const id of idsToFetch) {
+      seenIds.add(id);
+    }
+
+    // Fetch in batches
+    for (let i = 0; i < idsToFetch.length; i += BATCH_SIZE) {
+      const batch = idsToFetch.slice(i, i + BATCH_SIZE);
+      const results = await Promise.allSettled(batch.map((id) => fetchHNItem(id)));
+
+      for (const result of results) {
+        if (result.status === 'fulfilled' && result.value) {
+          allItems.push(mapToStandardItem(result.value, feedType));
+        }
       }
     }
+
+    logger.info(`Collected items from HN ${feedType}, running total: ${allItems.length}`);
   }
 
-  logger.info(`Collected ${items.length} Hacker News stories`);
-  return items;
+  logger.info(`Total Hacker News items collected: ${allItems.length} (across ${config.feeds.length} feeds)`);
+  return allItems;
 }

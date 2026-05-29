@@ -1,8 +1,28 @@
+// ── Source types ──
+
 export type SourceType =
   | "hacker_news"
   | "reddit"
+  | "reddit_search"
   | "github_trending"
   | "rss";
+
+// ── Multi-dimensional scoring ──
+
+export type ScoreBreakdown = {
+  painScore: number;
+  startupScore: number;
+  saasScore: number;
+  trendScore: number;
+  devtoolScore: number;
+  marketingScore: number;
+  authorityScore: number;
+  recencyScore: number;
+  finalScore: number;
+  reasons: string[];
+};
+
+// ── Standard item ──
 
 export type StandardItem = {
   id: string;
@@ -10,6 +30,7 @@ export type StandardItem = {
   url: string;
   source: string;
   sourceType: SourceType;
+  category?: string;
   author?: string;
   publishedAt?: string;
   fetchedAt: string;
@@ -19,8 +40,11 @@ export type StandardItem = {
   commentsCount?: number;
   tags: string[];
   relevanceScore: number;
+  scores?: ScoreBreakdown;
   raw?: unknown;
 };
+
+// ── Config types ──
 
 export type SourceConfig = {
   name: string;
@@ -29,14 +53,17 @@ export type SourceConfig = {
 };
 
 export type HackerNewsConfig = {
-  limit: number;
+  enabled?: boolean;
+  limitPerFeed: number;
+  feeds: string[];
 };
 
 export type SourcesConfig = {
-  reddit: SourceConfig[];
-  rss: SourceConfig[];
-  githubTrending: SourceConfig[];
   hackerNews: HackerNewsConfig;
+  reddit: SourceConfig[];
+  redditSearch: SourceConfig[];
+  githubTrending: SourceConfig[];
+  rss: SourceConfig[];
 };
 
 export type KeywordsConfig = {

@@ -8,12 +8,14 @@ import { todayDateString } from './utils/date.js';
 // Collectors
 import { collectHackerNews } from './collectors/hackerNewsCollector.js';
 import { collectRedditRss } from './collectors/redditRssCollector.js';
+import { collectRedditSearch } from './collectors/redditSearchCollector.js';
 import { collectRss } from './collectors/rssCollector.js';
 import { collectGitHubTrending } from './collectors/githubTrendingCollector.js';
 
 // Services
 import { normalizeItems } from './services/normalize.js';
 import { dedupeItems } from './services/dedupe.js';
+import { filterItems } from './services/filter.js';
 import { tagItems } from './services/tagger.js';
 import { rankItems } from './services/rank.js';
 import { loadHistory, updateHistory } from './services/historyStore.js';
@@ -26,7 +28,7 @@ async function loadJson<T>(filePath: string): Promise<T> {
 
 async function main(): Promise<void> {
   const startTime = Date.now();
-  logger.info('=== Startup Radar — Daily Digest ===');
+  logger.info('=== Startup Radar v2 — Daily Digest ===');
   logger.info(`Date: ${todayDateString()}`);
 
   // 1. Load configuration
@@ -37,18 +39,26 @@ async function main(): Promise<void> {
 
   // 2. Collect data from all sources concurrently
   logger.info('Collecting data from all sources...');
-  const [hnItems, redditItems, rssItems, githubItems] = await Promise.all([
+  const [hnItems, redditItems, redditSearchItems, rssItems, githubItems] = await Promise.all([
     collectHackerNews(sourcesConfig.hackerNews),
     collectRedditRss(sourcesConfig.reddit),
+    collectRedditSearch(sourcesConfig.redditSearch),
     collectRss(sourcesConfig.rss),
     collectGitHubTrending(sourcesConfig.githubTrending),
   ]);
 
-  const allItems = [...hnItems, ...redditItems, ...rssItems, ...githubItems];
+  const allItems = [
+    ...hnItems,
+    ...redditItems,
+    ...redditSearchItems,
+    ...rssItems,
+    ...githubItems,
+  ];
   const totalCollected = allItems.length;
   logger.info(`Total items collected: ${totalCollected}`);
   logger.info(`  Hacker News: ${hnItems.length}`);
-  logger.info(`  Reddit: ${redditItems.length}`);
+  logger.info(`  Reddit subs: ${redditItems.length}`);
+  logger.info(`  Reddit search: ${redditSearchItems.length}`);
   logger.info(`  RSS: ${rssItems.length}`);
   logger.info(`  GitHub Trending: ${githubItems.length}`);
 
@@ -62,15 +72,20 @@ async function main(): Promise<void> {
   const deduped = dedupeItems(normalized, history);
   const afterDedupe = deduped.length;
 
-  // 5. Tag items
-  logger.info('Tagging items...');
-  const tagged = tagItems(deduped, keywordsConfig);
+  // 5. Hard filter (remove junk)
+  logger.info('Filtering junk items...');
+  const filtered = filterItems(deduped, keywordsConfig);
+  const afterFilter = filtered.length;
 
-  // 6. Rank items
-  logger.info('Ranking items...');
+  // 6. Tag items
+  logger.info('Tagging items...');
+  const tagged = tagItems(filtered, keywordsConfig);
+
+  // 7. Rank items with multi-score system
+  logger.info('Ranking items with multi-score system...');
   const ranked = rankItems(tagged, keywordsConfig);
 
-  // 7. Save raw data
+  // 8. Save raw data
   logger.info('Saving raw data...');
   const rawDir = path.join(process.cwd(), 'data', 'raw');
   await mkdir(rawDir, { recursive: true });
@@ -78,20 +93,26 @@ async function main(): Promise<void> {
   await writeFile(rawPath, JSON.stringify(ranked, null, 2) + '\n', 'utf-8');
   logger.info(`Raw data saved to ${rawPath}`);
 
-  // 8. Update history
+  // 9. Update history
   logger.info('Updating history...');
   await updateHistory(history, ranked);
 
-  // 9. Generate Markdown digest
+  // 10. Generate Markdown digest
   logger.info('Generating Markdown digest...');
-  const markdown = generateMarkdownDigest(ranked, { totalCollected, afterDedupe });
+  const markdown = generateMarkdownDigest(ranked, { totalCollected, afterDedupe, afterFilter });
 
-  // 10. Save digest
+  // 11. Save digest
   const outputDir = path.join(process.cwd(), 'output');
   await mkdir(outputDir, { recursive: true });
   const digestPath = path.join(outputDir, `${todayDateString()}.md`);
   await writeFile(digestPath, markdown, 'utf-8');
   logger.info(`Digest saved to ${digestPath}`);
+
+  // 12. Print summary
+  const topItem = ranked[0];
+  if (topItem?.scores) {
+    logger.info(`Top item: "${topItem.title}" (finalScore: ${topItem.scores.finalScore.toFixed(1)})`);
+  }
 
   const elapsedSeconds = ((Date.now() - startTime) / 1000).toFixed(1);
   logger.info(`=== Done in ${elapsedSeconds}s ===`);

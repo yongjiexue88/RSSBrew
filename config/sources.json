@@ -1,9 +1,19 @@
 {
+  "hackerNews": {
+    "enabled": true,
+    "limitPerFeed": 30,
+    "feeds": [
+      "topstories",
+      "beststories",
+      "showstories",
+      "askstories"
+    ]
+  },
   "reddit": [
     {
       "name": "Reddit SaaS",
       "url": "https://www.reddit.com/r/SaaS/.rss",
-      "category": "startup"
+      "category": "saas"
     },
     {
       "name": "Reddit Startups",
@@ -13,12 +23,17 @@
     {
       "name": "Reddit SideProject",
       "url": "https://www.reddit.com/r/SideProject/.rss",
-      "category": "startup"
+      "category": "indie-builder"
     },
     {
       "name": "Reddit Entrepreneur",
       "url": "https://www.reddit.com/r/Entrepreneur/.rss",
-      "category": "startup"
+      "category": "business"
+    },
+    {
+      "name": "Reddit SmallBusiness",
+      "url": "https://www.reddit.com/r/smallbusiness/.rss",
+      "category": "business-pain"
     },
     {
       "name": "Reddit WebDev",
@@ -28,7 +43,141 @@
     {
       "name": "Reddit SelfHosted",
       "url": "https://www.reddit.com/r/selfhosted/.rss",
-      "category": "developer"
+      "category": "self-hosted"
+    },
+    {
+      "name": "Reddit NoCode",
+      "url": "https://www.reddit.com/r/nocode/.rss",
+      "category": "nocode"
+    },
+    {
+      "name": "Reddit Automation",
+      "url": "https://www.reddit.com/r/automation/.rss",
+      "category": "automation"
+    },
+    {
+      "name": "Reddit Artificial",
+      "url": "https://www.reddit.com/r/artificial/.rss",
+      "category": "ai"
+    },
+    {
+      "name": "Reddit ChatGPT",
+      "url": "https://www.reddit.com/r/ChatGPT/.rss",
+      "category": "ai"
+    },
+    {
+      "name": "Reddit LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/.rss",
+      "category": "ai-open-source"
+    },
+    {
+      "name": "Reddit DevOps",
+      "url": "https://www.reddit.com/r/devops/.rss",
+      "category": "developer-tool"
+    },
+    {
+      "name": "Reddit Sysadmin",
+      "url": "https://www.reddit.com/r/sysadmin/.rss",
+      "category": "b2b-pain"
+    },
+    {
+      "name": "Reddit DataEngineering",
+      "url": "https://www.reddit.com/r/dataengineering/.rss",
+      "category": "data"
+    },
+    {
+      "name": "Reddit ProductManagement",
+      "url": "https://www.reddit.com/r/ProductManagement/.rss",
+      "category": "product"
+    },
+    {
+      "name": "Reddit Marketing",
+      "url": "https://www.reddit.com/r/marketing/.rss",
+      "category": "marketing"
+    },
+    {
+      "name": "Reddit SEO",
+      "url": "https://www.reddit.com/r/SEO/.rss",
+      "category": "distribution"
+    },
+    {
+      "name": "Reddit Ecommerce",
+      "url": "https://www.reddit.com/r/ecommerce/.rss",
+      "category": "ecommerce"
+    },
+    {
+      "name": "Reddit Shopify",
+      "url": "https://www.reddit.com/r/shopify/.rss",
+      "category": "ecommerce-saas"
+    }
+  ],
+  "redditSearch": [
+    {
+      "name": "Looking for a tool",
+      "url": "https://www.reddit.com/search.rss?q=%22looking+for+a+tool%22&sort=new",
+      "category": "pain-point"
+    },
+    {
+      "name": "Any tool for",
+      "url": "https://www.reddit.com/search.rss?q=%22any+tool+for%22&sort=new",
+      "category": "pain-point"
+    },
+    {
+      "name": "Alternative to SaaS",
+      "url": "https://www.reddit.com/search.rss?q=%22alternative+to%22+SaaS&sort=new",
+      "category": "competitor-gap"
+    },
+    {
+      "name": "How do you automate",
+      "url": "https://www.reddit.com/search.rss?q=%22how+do+you+automate%22&sort=new",
+      "category": "automation-pain"
+    },
+    {
+      "name": "What do you use for software",
+      "url": "https://www.reddit.com/search.rss?q=%22what+do+you+use+for%22+software&sort=new",
+      "category": "tool-discovery"
+    },
+    {
+      "name": "Too expensive software",
+      "url": "https://www.reddit.com/search.rss?q=%22too+expensive%22+software&sort=new",
+      "category": "pricing-pain"
+    },
+    {
+      "name": "Manual process business",
+      "url": "https://www.reddit.com/search.rss?q=%22manual+process%22+business&sort=new",
+      "category": "automation-pain"
+    }
+  ],
+  "githubTrending": [
+    {
+      "name": "GitHub Trending Overall",
+      "url": "https://github.com/trending",
+      "category": "open-source"
+    },
+    {
+      "name": "GitHub Trending TypeScript",
+      "url": "https://github.com/trending/typescript",
+      "category": "typescript"
+    },
+    {
+      "name": "GitHub Trending JavaScript",
+      "url": "https://github.com/trending/javascript",
+      "category": "javascript"
+    },
+    {
+      "name": "GitHub Trending Python",
+      "url": "https://github.com/trending/python",
+      "category": "python"
+    },
+    {
+      "name": "GitHub Trending Go",
+      "url": "https://github.com/trending/go",
+      "category": "go"
+    },
+    {
+      "name": "GitHub Trending Rust",
+      "url": "https://github.com/trending/rust",
+      "category": "rust"
     }
   ],
   "rss": [
@@ -45,7 +194,7 @@
     {
       "name": "Stripe Blog",
       "url": "https://stripe.com/blog/feed.rss",
-      "category": "saas"
+      "category": "payments-saas"
     },
     {
       "name": "Supabase Blog",
@@ -55,24 +204,32 @@
     {
       "name": "Vercel Blog",
       "url": "https://vercel.com/blog/rss.xml",
+      "category": "frontend-ai"
+    },
+    {
+      "name": "PostHog Blog",
+      "url": "https://posthog.com/blog/rss.xml",
+      "category": "product-analytics"
+    },
+    {
+      "name": "Sentry Blog",
+      "url": "https://blog.sentry.io/rss/",
       "category": "developer-tool"
-    }
-  ],
-  "githubTrending": [
-    {
-      "name": "GitHub Trending TypeScript",
-      "url": "https://github.com/trending/typescript"
     },
     {
-      "name": "GitHub Trending Python",
-      "url": "https://github.com/trending/python"
+      "name": "Docker Blog",
+      "url": "https://www.docker.com/blog/feed/",
+      "category": "developer-tool"
     },
     {
-      "name": "GitHub Trending Overall",
-      "url": "https://github.com/trending"
+      "name": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "category": "ai"
+    },
+    {
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "category": "ai-agent"
     }
-  ],
-  "hackerNews": {
-    "limit": 30
-  }
+  ]
 }
