@@ -1,333 +1,86 @@
 [
   {
-    "id": "reddit-ertheirfirst",
-    "title": "How do you bring customers back after their first visit?",
-    "url": "https://www.reddit.com/r/smallbusiness/comments/1trb7st/how_do_you_bring_customers_back_after_their_first/",
-    "source": "Reddit SmallBusiness",
+    "id": "reddit-herpayingfor",
+    "title": "Should a small DTC brand even bother paying for inventory management tools?",
+    "url": "https://www.reddit.com/r/ecommerce/comments/1trezuz/should_a_small_dtc_brand_even_bother_paying_for/",
+    "source": "Reddit Ecommerce",
     "sourceType": "reddit",
-    "publishedAt": "2026-05-29T18:34:47.000Z",
-    "fetchedAt": "2026-05-29T20:38:40.538Z",
-    "summary": "For businesses that rely on repeat customers, how do you currently track when someone has stopped coming back?\n I’m thinking about cafés, restaurants, salons, barbers, gyms, car washes, dessert shops and local retailers.\n I’m working on a simple system for this problem: customers check in, and if they have not returned after a set time, the business can send a pre-selected automated message, usually something like a small discount or “we miss you” offer.\n Before going further with it, I’d like to learn from people who actually run small businesses.\n Do you currently use anything for this?\n  \nloyalty cards\n spreadsheets\n booking history\n point-of-sale data\n WhatsApp or email follow-ups\n nothing formal, just memory\n  \nThe main problem I’m trying to understand is this:\n A customer may visit several times, then quietly disappear. By the time the owner notices, they may already be going somewhere else.\n How do you handle this in your business?\n Do automated reminders or discount messages help, or do they feel unnecessary?\n    submitted by    /u/rafay_amer701  \n [link]   [comments]",
+    "publishedAt": "2026-05-29T20:41:17.000Z",
+    "fetchedAt": "2026-05-29T20:42:58.961Z",
+    "summary": "The ROI on inventory management tools for small DTC brands is not as straightforward as vendors would have you believe.\n Arguments for paying at the small-brand stage:\n Multi-channel inventory sync is genuinely valuable if you are selling on Amazon, Shopify, and wholesale simultaneously, spreadsheets break on this specific problem reliably\n Reorder alert automation reduces human error on stocking out, which tends to be expensive relative to the software subscription cost\n Accurate tracking across \"in production,\" \"in transit,\" and \"in warehouse\" statuses prevents phantom inventory errors that create real customer commitment problems\n Arguments against, or at least not yet:\n Most forecasting modules are useless with less than 12 months of SKU-level sales data, which describes most small brands\n Implementation time and ongoing data entry discipline create more overhead than they save at low SKU counts\n A well-designed Airtable setup handles the core needs of a 3 to 5 SKU brand at zero variable cost with more flexibility\n The break-even for most mid-tier inventory platforms is somewhere in the 8 to 12 SKU range, and the production visibility gap that kanary covers on the factory side is often the gap brands were trying to solve with software in the first place.\n    submitted by    /u/Huracan-FirstGEN  \n [link]   [comments]",
     "tags": [
       "pain-point",
+      "startup-idea",
       "saas"
     ],
-    "relevanceScore": 19,
+    "relevanceScore": 22,
     "raw": {
-      "title": "How do you bring customers back after their first visit?",
-      "link": "https://www.reddit.com/r/smallbusiness/comments/1trb7st/how_do_you_bring_customers_back_after_their_first/",
-      "pubDate": "2026-05-29T18:34:47.000Z",
-      "author": "/u/rafay_amer701",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>For businesses that rely on repeat customers, how do you currently track when someone has stopped coming back?</p> <p>I’m thinking about cafés, restaurants, salons, barbers, gyms, car washes, dessert shops and local retailers.</p> <p>I’m working on a simple system for this problem: customers check in, and if they have not returned after a set time, the business can send a pre-selected automated message, usually something like a small discount or “we miss you” offer.</p> <p>Before going further with it, I’d like to learn from people who actually run small businesses.</p> <p>Do you currently use anything for this?</p> <ul> <li>loyalty cards</li> <li>spreadsheets</li> <li>booking history</li> <li>point-of-sale data</li> <li>WhatsApp or email follow-ups</li> <li>nothing formal, just memory</li> </ul> <p>The main problem I’m trying to understand is this:</p> <p>A customer may visit several times, then quietly disappear. By the time the owner notices, they may already be going somewhere else.</p> <p>How do you handle this in your business?<br/> Do automated reminders or discount messages help, or do they feel unnecessary?</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/rafay_amer701\"> /u/rafay_amer701 </a> <br/> <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1trb7st/how_do_you_bring_customers_back_after_their_first/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/smallbusiness/comments/1trb7st/how_do_you_bring_customers_back_after_their_first/\">[comments]</a></span>",
-      "contentSnippet": "For businesses that rely on repeat customers, how do you currently track when someone has stopped coming back?\n I’m thinking about cafés, restaurants, salons, barbers, gyms, car washes, dessert shops and local retailers.\n I’m working on a simple system for this problem: customers check in, and if they have not returned after a set time, the business can send a pre-selected automated message, usually something like a small discount or “we miss you” offer.\n Before going further with it, I’d like to learn from people who actually run small businesses.\n Do you currently use anything for this?\n  \nloyalty cards\n spreadsheets\n booking history\n point-of-sale data\n WhatsApp or email follow-ups\n nothing formal, just memory\n  \nThe main problem I’m trying to understand is this:\n A customer may visit several times, then quietly disappear. By the time the owner notices, they may already be going somewhere else.\n How do you handle this in your business?\n Do automated reminders or discount messages help, or do they feel unnecessary?\n    submitted by    /u/rafay_amer701  \n [link]   [comments]",
-      "id": "t3_1trb7st",
-      "isoDate": "2026-05-29T18:34:47.000Z"
+      "title": "Should a small DTC brand even bother paying for inventory management tools?",
+      "link": "https://www.reddit.com/r/ecommerce/comments/1trezuz/should_a_small_dtc_brand_even_bother_paying_for/",
+      "pubDate": "2026-05-29T20:41:17.000Z",
+      "author": "/u/Huracan-FirstGEN",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>The ROI on inventory management tools for small DTC brands is not as straightforward as vendors would have you believe.</p> <p>Arguments for paying at the small-brand stage:</p> <p>Multi-channel inventory sync is genuinely valuable if you are selling on Amazon, Shopify, and wholesale simultaneously, spreadsheets break on this specific problem reliably</p> <p>Reorder alert automation reduces human error on stocking out, which tends to be expensive relative to the software subscription cost</p> <p>Accurate tracking across &quot;in production,&quot; &quot;in transit,&quot; and &quot;in warehouse&quot; statuses prevents phantom inventory errors that create real customer commitment problems</p> <p>Arguments against, or at least not yet:</p> <p>Most forecasting modules are useless with less than 12 months of SKU-level sales data, which describes most small brands</p> <p>Implementation time and ongoing data entry discipline create more overhead than they save at low SKU counts</p> <p>A well-designed Airtable setup handles the core needs of a 3 to 5 SKU brand at zero variable cost with more flexibility</p> <p>The break-even for most mid-tier inventory platforms is somewhere in the 8 to 12 SKU range, and the production visibility gap that kanary covers on the factory side is often the gap brands were trying to solve with software in the first place.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Huracan-FirstGEN\"> /u/Huracan-FirstGEN </a> <br/> <span><a href=\"https://www.reddit.com/r/ecommerce/comments/1trezuz/should_a_small_dtc_brand_even_bother_paying_for/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/ecommerce/comments/1trezuz/should_a_small_dtc_brand_even_bother_paying_for/\">[comments]</a></span>",
+      "contentSnippet": "The ROI on inventory management tools for small DTC brands is not as straightforward as vendors would have you believe.\n Arguments for paying at the small-brand stage:\n Multi-channel inventory sync is genuinely valuable if you are selling on Amazon, Shopify, and wholesale simultaneously, spreadsheets break on this specific problem reliably\n Reorder alert automation reduces human error on stocking out, which tends to be expensive relative to the software subscription cost\n Accurate tracking across \"in production,\" \"in transit,\" and \"in warehouse\" statuses prevents phantom inventory errors that create real customer commitment problems\n Arguments against, or at least not yet:\n Most forecasting modules are useless with less than 12 months of SKU-level sales data, which describes most small brands\n Implementation time and ongoing data entry discipline create more overhead than they save at low SKU counts\n A well-designed Airtable setup handles the core needs of a 3 to 5 SKU brand at zero variable cost with more flexibility\n The break-even for most mid-tier inventory platforms is somewhere in the 8 to 12 SKU range, and the production visibility gap that kanary covers on the factory side is often the gap brands were trying to solve with software in the first place.\n    submitted by    /u/Huracan-FirstGEN  \n [link]   [comments]",
+      "id": "t3_1trezuz",
+      "isoDate": "2026-05-29T20:41:17.000Z"
     },
     "scores": {
       "painScore": 5,
-      "startupScore": 2,
+      "startupScore": 4,
       "saasScore": 2,
       "trendScore": 0,
       "devtoolScore": 0,
       "marketingScore": 0,
       "authorityScore": 0,
       "recencyScore": 5,
-      "finalScore": 19,
+      "finalScore": 22.2,
       "reasons": [
         "Pain: matched \"spreadsheet\" (+5)",
         "Startup: Reddit source (+2)",
-        "SaaS: matched saas keyword (+2)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "reddit-eursiwillnot",
-    "title": "My life as a successful entrepreneur/s (I will not promote)",
-    "url": "https://www.reddit.com/r/startups/comments/1trepht/my_life_as_a_successful_entrepreneurs_i_will_not/",
-    "source": "Reddit Startups",
-    "sourceType": "reddit",
-    "publishedAt": "2026-05-29T20:31:10.000Z",
-    "fetchedAt": "2026-05-29T20:38:38.261Z",
-    "summary": "It’s 4:32 pm on a random Tuesday, half an hour until I call it a day, still got a lot of tasks left. I work in my dream job, I’m supposed to be giddy all over the place. I mean, I relish my job, but then why can’t my thoughts stop stirring over this amazing (not actually amazing) SaaS idea: a monitor for flight prices that sends a message or auto-buys a ticket when a flight drops to the price you choose! It’s already 5:59 pm, no more dishes are left in the sink, so I open my laptop, about to keep working on this idea.\n My laptop says\n “Gili! Glad to see you back! So in case you forgot where we left off last night, in order to connect the Kayak API-”\n I cut him mid-sentence\n “Haha, yeah about that… listen, I have a new better idea.”\n My laptop shrieks back at me\n “No no no, it’s the same loop over and over again. You fantasize for a good couple of days about your brand new ‘life-changing’ idea, you write a couple lines of code- no, you barely write a five-word prompt to ChatGPT, which by the way, you could use way better chatbots than this one. Okay, spinning back to the point, where was I? Oh yeah, you then come up with your usual monologue: ‘Today, I feel it, that’s the one! Believe me, I’m on the ball.’ Yes, you’re on the ball. maybe you have one ball. Grow a pair!”\n It takes me a few seconds, but then I respond with\n “I’m a woman, sir. I don’t want to grow a pair.”\n The door slightly opens. My boyfriend enters the room, kisses me on the cheek, then mutters, “Who are you talking to?”\n Apologies for the wacky writing style. I express myself best through personification and messiness as such.\n    submitted by    /u/VeterinarianFuzzy830  \n [link]   [comments]",
-    "tags": [
-      "startup-idea",
-      "saas",
-      "developer-tool"
-    ],
-    "relevanceScore": 17,
-    "raw": {
-      "title": "My life as a successful entrepreneur/s (I will not promote)",
-      "link": "https://www.reddit.com/r/startups/comments/1trepht/my_life_as_a_successful_entrepreneurs_i_will_not/",
-      "pubDate": "2026-05-29T20:31:10.000Z",
-      "author": "/u/VeterinarianFuzzy830",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>It’s 4:32 pm on a random Tuesday, half an hour until I call it a day, still got a lot of tasks left. I work in my dream job, I’m supposed to be giddy all over the place. I mean, I relish my job, but then why can’t my thoughts stop stirring over this amazing (not actually amazing) SaaS idea: a monitor for flight prices that sends a message or auto-buys a ticket when a flight drops to the price you choose! It’s already 5:59 pm, no more dishes are left in the sink, so I open my laptop, about to keep working on this idea.</p> <p>My laptop says<br/> “Gili! Glad to see you back! So in case you forgot where we left off last night, in order to connect the Kayak API-”</p> <p>I cut him mid-sentence<br/> “Haha, yeah about that… listen, I have a new better idea.”</p> <p>My laptop shrieks back at me<br/> “No no no, it’s the same loop over and over again. You fantasize for a good couple of days about your brand new ‘life-changing’ idea, you write a couple lines of code- no, you barely write a five-word prompt to ChatGPT, which by the way, you could use way better chatbots than this one. Okay, spinning back to the point, where was I? Oh yeah, you then come up with your usual monologue: ‘Today, I feel it, that’s the one! Believe me, I’m on the ball.’ Yes, you’re on the ball. maybe you have one ball. Grow a pair!”</p> <p>It takes me a few seconds, but then I respond with<br/> “I’m a woman, sir. I don’t want to grow a pair.”</p> <p>The door slightly opens. My boyfriend enters the room, kisses me on the cheek, then mutters, “Who are you talking to?”</p> <p>Apologies for the wacky writing style. I express myself best through personification and messiness as such.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/VeterinarianFuzzy830\"> /u/VeterinarianFuzzy830 </a> <br/> <span><a href=\"https://www.reddit.com/r/startups/comments/1trepht/my_life_as_a_successful_entrepreneurs_i_will_not/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/startups/comments/1trepht/my_life_as_a_successful_entrepreneurs_i_will_not/\">[comments]</a></span>",
-      "contentSnippet": "It’s 4:32 pm on a random Tuesday, half an hour until I call it a day, still got a lot of tasks left. I work in my dream job, I’m supposed to be giddy all over the place. I mean, I relish my job, but then why can’t my thoughts stop stirring over this amazing (not actually amazing) SaaS idea: a monitor for flight prices that sends a message or auto-buys a ticket when a flight drops to the price you choose! It’s already 5:59 pm, no more dishes are left in the sink, so I open my laptop, about to keep working on this idea.\n My laptop says\n “Gili! Glad to see you back! So in case you forgot where we left off last night, in order to connect the Kayak API-”\n I cut him mid-sentence\n “Haha, yeah about that… listen, I have a new better idea.”\n My laptop shrieks back at me\n “No no no, it’s the same loop over and over again. You fantasize for a good couple of days about your brand new ‘life-changing’ idea, you write a couple lines of code- no, you barely write a five-word prompt to ChatGPT, which by the way, you could use way better chatbots than this one. Okay, spinning back to the point, where was I? Oh yeah, you then come up with your usual monologue: ‘Today, I feel it, that’s the one! Believe me, I’m on the ball.’ Yes, you’re on the ball. maybe you have one ball. Grow a pair!”\n It takes me a few seconds, but then I respond with\n “I’m a woman, sir. I don’t want to grow a pair.”\n The door slightly opens. My boyfriend enters the room, kisses me on the cheek, then mutters, “Who are you talking to?”\n Apologies for the wacky writing style. I express myself best through personification and messiness as such.\n    submitted by    /u/VeterinarianFuzzy830  \n [link]   [comments]",
-      "id": "t3_1trepht",
-      "isoDate": "2026-05-29T20:31:10.000Z"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 4,
-      "saasScore": 2,
-      "trendScore": 0,
-      "devtoolScore": 4,
-      "marketingScore": 0,
-      "authorityScore": 0,
-      "recencyScore": 5,
-      "finalScore": 17.2,
-      "reasons": [
-        "Startup: Reddit source (+2)",
         "Startup: matched startupIdea keyword (+2)",
         "SaaS: matched saas keyword (+2)",
-        "DevTool: matched developerTool keyword (+4)",
         "Recency: published within 24h (+5)"
       ]
     }
   },
   {
-    "id": "rss-illedperunit",
-    "title": "Function invocations now billed per unit",
-    "url": "https://vercel.com/changelog/function-invocations-now-billed-per-unit",
-    "source": "Vercel Blog",
-    "sourceType": "rss",
-    "publishedAt": "2026-05-29T10:00:00.000Z",
-    "fetchedAt": "2026-05-29T20:38:38.151Z",
-    "summary": "are moving from package-based to per-unit pricing for Pro and new Enterprise customers. You’ll continue paying the same effective rate until the end of your current billing cycle.  you’ll be billed per unit to align costs directly with your usage.Function invocationsStarting with your next billing cycle\nThe new rate is $0.0000006 per invocation (previously $0.60 per 1M invocations) for Pro customers.\nPer‑unit billing scales more smoothly across team sizes and usage patterns. It also helps teams on Pro use function invocations without immediately consuming a large portion of the included monthly usage credit. \n or learn more about .Get startedVercel Functions usage and pricing\nRead more",
-    "content": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p> are moving from package-based to per-unit pricing for Pro and new Enterprise customers. You’ll continue paying the same effective rate until the end of your current billing cycle.  you’ll be billed per unit to align costs directly with your usage.<a href=\"https://vercel.com/docs/functions\">Function invocations</a><b>Starting with your next billing cycle</b></p><p>The new rate is $0.0000006 per invocation (previously $0.60 per 1M invocations) for Pro customers.</p><p>Per‑unit billing scales more smoothly across team sizes and usage patterns. It also helps teams on Pro use function invocations without immediately consuming a large portion of the included monthly usage credit. </p><p> or learn more about .<a href=\"https://vercel.com/docs/functions/quickstart\">Get started</a><a href=\"https://vercel.com/docs/functions/usage-and-pricing\">Vercel Functions usage and pricing</a></p><p class=\"more\"><a href=\"https://vercel.com/changelog/function-invocations-now-billed-per-unit\">Read more</a></p></div></div>",
+    "id": "reddit-sinessunless",
+    "title": "Don’t quit your job to start a business unless your energy tank is full - I will not promote",
+    "url": "https://www.reddit.com/r/startups/comments/1treoc8/dont_quit_your_job_to_start_a_business_unless/",
+    "source": "Reddit Startups",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:30:02.000Z",
+    "fetchedAt": "2026-05-29T20:42:45.657Z",
+    "summary": "Last week, I attended a startup pitch event in Warsaw.\n Founder after founder stepped on stage, each presenting their vision, their product, and their plan to change the world.\n As I listened, I was staggered about their energy.\n Ten years ago, I launched my first company. Back then, the business consumed my life. Every customer felt critical. Every problem felt existential.\n Today, I lead a business with more than 100 employees. The financial decisions are bigger, the responsibilities are broader, and the impact is objectively larger.\n Yet watching those founders reminded me of something: \n I am far more comfortable today than I was back then.\n Building a startup from scratch requires a level of intensity that is hard to appreciate until you’ve lived it. You’re creating something from nothing, with limited resources, uncertain outcomes, and no guarantee that any of your efforts will pay off.\n Before leaving your job to start a company,\n ask yourself whether you have the energy to carry it for years.\n    submitted by    /u/socialfeeders  \n [link]   [comments]",
     "tags": [
-      "startup-idea",
-      "saas",
+      "pain-point",
       "marketing"
     ],
-    "relevanceScore": 12,
+    "relevanceScore": 15,
     "raw": {
-      "title": "Function invocations now billed per unit",
-      "link": "https://vercel.com/changelog/function-invocations-now-billed-per-unit",
-      "pubDate": "2026-05-29T10:00:00.000Z",
-      "author": "Pranav Kanchi",
-      "content": "<div type=\"xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p> are moving from package-based to per-unit pricing for Pro and new Enterprise customers. You’ll continue paying the same effective rate until the end of your current billing cycle.  you’ll be billed per unit to align costs directly with your usage.<a href=\"https://vercel.com/docs/functions\">Function invocations</a><b>Starting with your next billing cycle</b></p><p>The new rate is $0.0000006 per invocation (previously $0.60 per 1M invocations) for Pro customers.</p><p>Per‑unit billing scales more smoothly across team sizes and usage patterns. It also helps teams on Pro use function invocations without immediately consuming a large portion of the included monthly usage credit. </p><p> or learn more about .<a href=\"https://vercel.com/docs/functions/quickstart\">Get started</a><a href=\"https://vercel.com/docs/functions/usage-and-pricing\">Vercel Functions usage and pricing</a></p><p class=\"more\"><a href=\"https://vercel.com/changelog/function-invocations-now-billed-per-unit\">Read more</a></p></div></div>",
-      "contentSnippet": "are moving from package-based to per-unit pricing for Pro and new Enterprise customers. You’ll continue paying the same effective rate until the end of your current billing cycle.  you’ll be billed per unit to align costs directly with your usage.Function invocationsStarting with your next billing cycle\nThe new rate is $0.0000006 per invocation (previously $0.60 per 1M invocations) for Pro customers.\nPer‑unit billing scales more smoothly across team sizes and usage patterns. It also helps teams on Pro use function invocations without immediately consuming a large portion of the included monthly usage credit. \n or learn more about .Get startedVercel Functions usage and pricing\nRead more",
-      "id": "https://vercel.com/changelog/function-invocations-now-billed-per-unit",
-      "isoDate": "2026-05-29T10:00:00.000Z"
+      "title": "Don’t quit your job to start a business unless your energy tank is full - I will not promote",
+      "link": "https://www.reddit.com/r/startups/comments/1treoc8/dont_quit_your_job_to_start_a_business_unless/",
+      "pubDate": "2026-05-29T20:30:02.000Z",
+      "author": "/u/socialfeeders",
+      "content": "<!-- SC_OFF --><div class=\"md\"><p>Last week, I attended a startup pitch event in Warsaw.</p> <p>Founder after founder stepped on stage, each presenting their vision, their product, and their plan to change the world.</p> <p>As I listened, I was staggered about their energy.</p> <p>Ten years ago, I launched my first company. Back then, the business consumed my life. Every customer felt critical. Every problem felt existential.</p> <p>Today, I lead a business with more than 100 employees. The financial decisions are bigger, the responsibilities are broader, and the impact is objectively larger.</p> <p>Yet watching those founders reminded me of something: </p> <p>I am far more comfortable today than I was back then.</p> <p>Building a startup from scratch requires a level of intensity that is hard to appreciate until you’ve lived it. You’re creating something from nothing, with limited resources, uncertain outcomes, and no guarantee that any of your efforts will pay off.</p> <p>Before leaving your job to start a company,<br/> ask yourself whether you have the energy to carry it for years.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/socialfeeders\"> /u/socialfeeders </a> <br/> <span><a href=\"https://www.reddit.com/r/startups/comments/1treoc8/dont_quit_your_job_to_start_a_business_unless/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/startups/comments/1treoc8/dont_quit_your_job_to_start_a_business_unless/\">[comments]</a></span>",
+      "contentSnippet": "Last week, I attended a startup pitch event in Warsaw.\n Founder after founder stepped on stage, each presenting their vision, their product, and their plan to change the world.\n As I listened, I was staggered about their energy.\n Ten years ago, I launched my first company. Back then, the business consumed my life. Every customer felt critical. Every problem felt existential.\n Today, I lead a business with more than 100 employees. The financial decisions are bigger, the responsibilities are broader, and the impact is objectively larger.\n Yet watching those founders reminded me of something: \n I am far more comfortable today than I was back then.\n Building a startup from scratch requires a level of intensity that is hard to appreciate until you’ve lived it. You’re creating something from nothing, with limited resources, uncertain outcomes, and no guarantee that any of your efforts will pay off.\n Before leaving your job to start a company,\n ask yourself whether you have the energy to carry it for years.\n    submitted by    /u/socialfeeders  \n [link]   [comments]",
+      "id": "t3_1treoc8",
+      "isoDate": "2026-05-29T20:30:02.000Z"
     },
     "scores": {
-      "painScore": 0,
+      "painScore": 3,
       "startupScore": 2,
-      "saasScore": 2,
+      "saasScore": 0,
       "trendScore": 0,
       "devtoolScore": 0,
       "marketingScore": 2,
       "authorityScore": 0,
       "recencyScore": 5,
-      "finalScore": 12.2,
+      "finalScore": 14.8,
       "reasons": [
-        "Startup: matched startupIdea keyword (+2)",
-        "SaaS: matched saas keyword (+2)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
         "Marketing: matched marketing keyword (+2)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "hn-48328336",
-    "title": "Show HN: I brought back Airbnb categories",
-    "url": "https://www.vibebnb.fyi/",
-    "source": "Show HN",
-    "sourceType": "hacker_news",
-    "category": "show-hn",
-    "author": "giulioco",
-    "publishedAt": "2026-05-29T19:53:25.000Z",
-    "fetchedAt": "2026-05-29T20:38:37.667Z",
-    "score": 2,
-    "commentsCount": 0,
-    "tags": [
-      "launch"
-    ],
-    "relevanceScore": 12,
-    "raw": {
-      "by": "giulioco",
-      "descendants": 0,
-      "id": 48328336,
-      "score": 2,
-      "text": "I miss airbnb categories. It was fun and I loved being able to just browse thorugh cool listings. I&#x27;m not exactly sure why they removed it. Then, a couple weeks ago, they hit me with some A&#x2F;B test and I had access to a &quot;what&quot; freeform textbox to custom filter results. Now apparently they removed that too.<p>At this point, I wasn&#x27;t happy - so I decided to look into how to bring it back. I noticed they still use some of the categories pages for SEO. For example: <a href=\"https:&#x2F;&#x2F;www.airbnb.com&#x2F;united-states&#x2F;stays&#x2F;ski-in-ski-out\" rel=\"nofollow\">https:&#x2F;&#x2F;www.airbnb.com&#x2F;united-states&#x2F;stays&#x2F;ski-in-ski-out</a><p>That gave me hope - those filters still existed somewhere. Turns out they were only removed from the UI and the search backend still supports all of them.<p>So after a bit of googling, I figured out how it works. Airbnb&#x27;s search runs on a GraphQL endpoint you can hit anonymously, and the categories map to params on the search URL that I recovered and verified one by one:<p>- Property types: property_type_id[]=&lt;n&gt; (Chalet=22, Cabin=4, Treehouse=6, Castle=5), still filtering even though the UI hides the options\n- Category tags: kg_and_tags[]=Tag:&lt;n&gt; — I got the IDs by loading those leftover SEO pages and just looking into the URL for the tag (ski-in&#x2F;ski-out is Tag:681).<p>The one thing I couldn&#x27;t bring back was that &quot;what&quot; freeform box - turns out it&#x27;s a server-side AI feature flag tied to your account, not a hidden param :&#x2F; though I have a feeling this one&#x27;s gonn be coming back anyways<p>So I vibecoded the filters I cared about into this little web app. It just builds a normal Airbnb search URL and opens airbnb.com directly — nothing scraped or stored. Hopefully they bring back categories or somethig similar soon. But in the meantime, I figured I&#x27;d share this in case anyone else misses browsing through cool treehouses or mountain chalets",
-      "time": 1780084405,
-      "title": "Show HN: I brought back Airbnb categories",
-      "type": "story",
-      "url": "https://www.vibebnb.fyi/"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 2,
-      "saasScore": 0,
-      "trendScore": 3,
-      "devtoolScore": 0,
-      "marketingScore": 0,
-      "authorityScore": 1.4,
-      "recencyScore": 5,
-      "finalScore": 11.9,
-      "reasons": [
-        "Startup: Show HN (+2)",
-        "Trend: Hacker News source (+3)",
-        "Authority: score 2, comments 0 (+1.4)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "reddit-ordevelopers",
-    "title": "UtilCraft — Free Online Tools for Developers & Creators",
-    "url": "https://www.reddit.com/r/webdev/comments/1trewtr/utilcraft_free_online_tools_for_developers/",
-    "source": "Reddit WebDev",
-    "sourceType": "reddit",
-    "publishedAt": "2026-05-29T20:38:14.000Z",
-    "fetchedAt": "2026-05-29T20:38:41.421Z",
-    "summary": "submitted by    /u/Yolmack  \n [link]   [comments]",
-    "tags": [
-      "startup-idea"
-    ],
-    "relevanceScore": 10,
-    "raw": {
-      "title": "UtilCraft — Free Online Tools for Developers & Creators",
-      "link": "https://www.reddit.com/r/webdev/comments/1trewtr/utilcraft_free_online_tools_for_developers/",
-      "pubDate": "2026-05-29T20:38:14.000Z",
-      "author": "/u/Yolmack",
-      "content": "&#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Yolmack\"> /u/Yolmack </a> <br/> <span><a href=\"https://www.utilcraft.tools/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/webdev/comments/1trewtr/utilcraft_free_online_tools_for_developers/\">[comments]</a></span>",
-      "contentSnippet": "submitted by    /u/Yolmack  \n [link]   [comments]",
-      "id": "t3_1trewtr",
-      "isoDate": "2026-05-29T20:38:14.000Z"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 4,
-      "saasScore": 0,
-      "trendScore": 0,
-      "devtoolScore": 0,
-      "marketingScore": 0,
-      "authorityScore": 0,
-      "recencyScore": 5,
-      "finalScore": 10.4,
-      "reasons": [
-        "Startup: Reddit source (+2)",
-        "Startup: matched startupIdea keyword (+2)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "hn-48328718",
-    "title": "Canada in Technical Recession",
-    "url": "https://www.cbc.ca/news/business/recession-gdp-may-2026-statscan-9.7216352",
-    "source": "Hacker News",
-    "sourceType": "hacker_news",
-    "category": "hn-top",
-    "author": "efavdb",
-    "publishedAt": "2026-05-29T20:23:33.000Z",
-    "fetchedAt": "2026-05-29T20:38:37.271Z",
-    "score": 7,
-    "commentsCount": 1,
-    "tags": [],
-    "relevanceScore": 10,
-    "raw": {
-      "by": "efavdb",
-      "descendants": 1,
-      "id": 48328718,
-      "kids": [
-        48328900
-      ],
-      "score": 7,
-      "time": 1780086213,
-      "title": "Canada in Technical Recession",
-      "type": "story",
-      "url": "https://www.cbc.ca/news/business/recession-gdp-may-2026-statscan-9.7216352"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 0,
-      "saasScore": 0,
-      "trendScore": 3,
-      "devtoolScore": 0,
-      "marketingScore": 0,
-      "authorityScore": 3.3,
-      "recencyScore": 5,
-      "finalScore": 10.2,
-      "reasons": [
-        "Trend: Hacker News source (+3)",
-        "Authority: score 7, comments 1 (+3.3)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "reddit-isthreadthey",
-    "title": "If five or more people say on this thread they want a particular app built, I'll build it!",
-    "url": "https://www.reddit.com/r/SideProject/comments/1trcv03/if_five_or_more_people_say_on_this_thread_they/",
-    "source": "Reddit SideProject",
-    "sourceType": "reddit",
-    "publishedAt": "2026-05-29T19:26:59.000Z",
-    "fetchedAt": "2026-05-29T20:38:39.043Z",
-    "summary": "Hi, I'm Philip. I am a good coder with a lot of great math ideas, including related to statistics. I want to build an app, but I don't have a good subject to build an app about. I have considered building a weight loss app that assigns users distances to run, and also uses statistics to calculate the probability that the runner will succeed. I never got a significant enough amount of feedback to consider the segment validated, so I am not sure that I should spend the time building that app.\n If you like apps, and would like one built in accordance with some of your requests, please feel free to post here and indicate what sort of app you would like to use! If 5 or more people indicate that they want me to build a particular app, I'll do it! I am good at Python/Django, C++, PHP/mySQL and other languages, and will probably build a web-based app with Python/Django, if I get enough interest. If you're one of the people who suggested the app on this thread, I'll be sure to give you a free copy!\n Thanks for reading.\n -Philip\n    submitted by    /u/Wrong-Section-8175  \n [link]   [comments]",
-    "tags": [],
-    "relevanceScore": 7,
-    "raw": {
-      "title": "If five or more people say on this thread they want a particular app built, I'll build it!",
-      "link": "https://www.reddit.com/r/SideProject/comments/1trcv03/if_five_or_more_people_say_on_this_thread_they/",
-      "pubDate": "2026-05-29T19:26:59.000Z",
-      "author": "/u/Wrong-Section-8175",
-      "content": "<!-- SC_OFF --><div class=\"md\"><p>Hi, I&#39;m Philip. I am a good coder with a lot of great math ideas, including related to statistics. I want to build an app, but I don&#39;t have a good subject to build an app about. I have considered building a weight loss app that assigns users distances to run, and also uses statistics to calculate the probability that the runner will succeed. I never got a significant enough amount of feedback to consider the segment validated, so I am not sure that I should spend the time building that app.</p> <p>If you like apps, and would like one built in accordance with some of your requests, please feel free to post here and indicate what sort of app you would like to use! If 5 or more people indicate that they want me to build a particular app, I&#39;ll do it! I am good at Python/Django, C++, PHP/mySQL and other languages, and will probably build a web-based app with Python/Django, if I get enough interest. If you&#39;re one of the people who suggested the app on this thread, I&#39;ll be sure to give you a free copy!</p> <p>Thanks for reading.</p> <p>-Philip</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/Wrong-Section-8175\"> /u/Wrong-Section-8175 </a> <br/> <span><a href=\"https://www.reddit.com/r/SideProject/comments/1trcv03/if_five_or_more_people_say_on_this_thread_they/\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/SideProject/comments/1trcv03/if_five_or_more_people_say_on_this_thread_they/\">[comments]</a></span>",
-      "contentSnippet": "Hi, I'm Philip. I am a good coder with a lot of great math ideas, including related to statistics. I want to build an app, but I don't have a good subject to build an app about. I have considered building a weight loss app that assigns users distances to run, and also uses statistics to calculate the probability that the runner will succeed. I never got a significant enough amount of feedback to consider the segment validated, so I am not sure that I should spend the time building that app.\n If you like apps, and would like one built in accordance with some of your requests, please feel free to post here and indicate what sort of app you would like to use! If 5 or more people indicate that they want me to build a particular app, I'll do it! I am good at Python/Django, C++, PHP/mySQL and other languages, and will probably build a web-based app with Python/Django, if I get enough interest. If you're one of the people who suggested the app on this thread, I'll be sure to give you a free copy!\n Thanks for reading.\n -Philip\n    submitted by    /u/Wrong-Section-8175  \n [link]   [comments]",
-      "id": "t3_1trcv03",
-      "isoDate": "2026-05-29T19:26:59.000Z"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 2,
-      "saasScore": 0,
-      "trendScore": 0,
-      "devtoolScore": 0,
-      "marketingScore": 0,
-      "authorityScore": 0,
-      "recencyScore": 5,
-      "finalScore": 7.2,
-      "reasons": [
-        "Startup: Reddit source (+2)",
-        "Recency: published within 24h (+5)"
-      ]
-    }
-  },
-  {
-    "id": "reddit-rommenlopark",
-    "title": "Meta lays off more than 2,000 from Menlo Park headquarters",
-    "url": "https://www.reddit.com/r/artificial/comments/1trevkk/meta_lays_off_more_than_2000_from_menlo_park/",
-    "source": "Reddit Artificial",
-    "sourceType": "reddit",
-    "publishedAt": "2026-05-29T20:37:02.000Z",
-    "fetchedAt": "2026-05-29T20:38:45.051Z",
-    "summary": "submitted by    /u/sfgate  \n [link]   [comments]",
-    "tags": [],
-    "relevanceScore": 7,
-    "raw": {
-      "title": "Meta lays off more than 2,000 from Menlo Park headquarters",
-      "link": "https://www.reddit.com/r/artificial/comments/1trevkk/meta_lays_off_more_than_2000_from_menlo_park/",
-      "pubDate": "2026-05-29T20:37:02.000Z",
-      "author": "/u/sfgate",
-      "content": "<table> <tr><td> <a href=\"https://www.reddit.com/r/artificial/comments/1trevkk/meta_lays_off_more_than_2000_from_menlo_park/\"> <img src=\"https://external-preview.redd.it/UJl9Nv6sXKKAQTuwNJ-_9Y5M2hTVDLIyRI8kZ4d99gU.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=190c8441de60900fa67cc55ea2f97405023d8146\" alt=\"Meta lays off more than 2,000 from Menlo Park headquarters\" title=\"Meta lays off more than 2,000 from Menlo Park headquarters\" /> </a> </td><td> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/sfgate\"> /u/sfgate </a> <br/> <span><a href=\"https://www.sfgate.com/tech/article/more-meta-layoffs-22282871.php\">[link]</a></span> &#32; <span><a href=\"https://www.reddit.com/r/artificial/comments/1trevkk/meta_lays_off_more_than_2000_from_menlo_park/\">[comments]</a></span> </td></tr></table>",
-      "contentSnippet": "submitted by    /u/sfgate  \n [link]   [comments]",
-      "id": "t3_1trevkk",
-      "isoDate": "2026-05-29T20:37:02.000Z"
-    },
-    "scores": {
-      "painScore": 0,
-      "startupScore": 2,
-      "saasScore": 0,
-      "trendScore": 0,
-      "devtoolScore": 0,
-      "marketingScore": 0,
-      "authorityScore": 0,
-      "recencyScore": 5,
-      "finalScore": 7.2,
-      "reasons": [
-        "Startup: Reddit source (+2)",
         "Recency: published within 24h (+5)"
       ]
     }
