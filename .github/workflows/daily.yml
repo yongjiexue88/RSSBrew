@@ -31,6 +31,15 @@ jobs:
       - name: Generate daily digest
         run: npm run daily
 
+      - name: Find generated report
+        id: report
+        run: |
+          REPORT_FILE=$(ls -t output/*.md | head -n 1)
+          REPORT_DATE=$(basename "$REPORT_FILE" .md)
+
+          echo "file=$REPORT_FILE" >> "$GITHUB_OUTPUT"
+          echo "date=$REPORT_DATE" >> "$GITHUB_OUTPUT"
+
       - name: Commit generated digest
         run: |
           git config user.name "startup-radar-bot"
@@ -44,3 +53,35 @@ jobs:
             git commit -m "chore: generate daily startup radar"
             git push
           fi
+
+      - name: Send daily report email with Resend
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          REPORT_FILE: ${{ steps.report.outputs.file }}
+          REPORT_DATE: ${{ steps.report.outputs.date }}
+        run: |
+          REQUEST_DATA=$(python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          report_file = Path(os.environ["REPORT_FILE"])
+          content = report_file.read_text(encoding="utf-8")
+
+          payload = {
+              "from": os.environ["MAIL_FROM"],
+              "to": [os.environ["MAIL_TO"]],
+              "subject": f"Daily Startup Radar - {os.environ['REPORT_DATE']}",
+              "text": content
+          }
+
+          print(json.dumps(payload))
+          PY
+          )
+
+          curl -X POST "https://api.resend.com/emails" \
+            -H "Authorization: Bearer $RESEND_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d "$REQUEST_DATA"
