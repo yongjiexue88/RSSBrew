@@ -1,6 +1,18 @@
 import { StandardItem, KeywordsConfig } from '../types/item.js';
 import { logger } from '../utils/logger.js';
 
+const SPAM_TITLE_PATTERNS = [
+  /\breviews?,?\s+complaints?,?\s+pricing\b/i,
+  /\bOTO(s)?\b/i,
+  /\blegit or scam\b/i,
+  /\btruth exposed\b/i,
+  /\bcomplete guide\b/i,
+  /\bsoftware development compan(y|ies)\b/i,
+  /\binvest in\b/i,
+  /\bstock\b|\bcrypto\b|\bprice prediction\b/i,
+  /\bamerica\b|\bchina\b|\brussia\b|\bwar\b|\bpolitics\b/i,
+];
+
 const VAGUE_REDDIT_TITLES = new Set([
   'help',
   'question',
@@ -27,6 +39,13 @@ export function filterItems(items: StandardItem[], keywords: KeywordsConfig): St
     const matchesMustDrop = mustDrop.some((kw) => titleLower.includes(kw));
 
     if (matchesMustDrop && !matchesMustKeep) {
+      droppedByKeyword++;
+      return false;
+    }
+
+    // Rule: strict SPAM/Junk pattern matching
+    const isSpam = SPAM_TITLE_PATTERNS.some(pattern => pattern.test(item.title));
+    if (isSpam && !matchesMustKeep) {
       droppedByKeyword++;
       return false;
     }

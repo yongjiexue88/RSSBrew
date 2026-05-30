@@ -15,14 +15,20 @@ export function generateHtmlDigest(
   stats: { totalCollected: number; afterDedupe: number; afterFilter: number }
 ): string {
   const dateStr = todayDateString();
-  const highValueItems = items.filter((i) => (i.scores?.finalScore ?? 0) >= 30);
-  const painPoints = items.filter((i) => i.tags.includes('pain-point'));
-  const startupIdeas = items.filter((i) => i.tags.includes('startup-idea'));
-  const saas = items.filter((i) => i.tags.includes('saas'));
-  const newTech = items.filter((i) => i.tags.includes('new-tech'));
-  const devTools = items.filter((i) => i.tags.includes('developer-tool'));
+  const topOpportunities = items.filter(
+    (i) =>
+      (i.scores?.buyerIntentScore ?? 0) >= 8 &&
+      (i.scores?.promoPenalty ?? 0) <= 10 &&
+      (i.scores?.junkPenalty ?? 0) === 0 &&
+      i.tags.includes('pain-point')
+  );
+  
+  const topOppIds = new Set(topOpportunities.map((i) => i.id));
+  
+  const painPoints = items.filter((i) => i.tags.includes('pain-point') && !topOppIds.has(i.id));
+  const competitors = items.filter((i) => i.tags.includes('launch') || i.sourceType === 'github_trending');
   const marketing = items.filter((i) => i.tags.includes('marketing'));
-  const launches = items.filter((i) => i.tags.includes('launch'));
+  const newTech = items.filter((i) => i.tags.includes('new-tech'));
 
   // Beautiful CSS for the email
   const css = `
@@ -59,29 +65,38 @@ export function generateHtmlDigest(
   html += `<div class="stats-row"><span>Items Collected</span> <strong>${stats.totalCollected}</strong></div>`;
   html += `<div class="stats-row"><span>After Dedupe</span> <strong>${stats.afterDedupe}</strong></div>`;
   html += `<div class="stats-row"><span>After Filtering</span> <strong>${stats.afterFilter}</strong></div>`;
-  html += `<div class="stats-row"><span>High-Value Opportunities (Score 30+)</span> <strong>${highValueItems.length}</strong></div>`;
+  html += `<div class="stats-row"><span>High-Value Opportunities (Score 30+)</span> <strong>${topOpportunities.length}</strong></div>`;
   html += `</div>`;
 
-  const renderItemCard = (item: StandardItem, index?: number) => {
+  const renderItemCard = (item: StandardItem, index?: number, isOpportunity = false) => {
     const score = item.scores?.finalScore ?? 0;
     const reasons = item.scores?.reasons?.slice(0, 3) || [];
     let card = `<div class="item">`;
     card += `<h3>${index ? index + '. ' : ''}<a href="${escapeHtml(item.url)}" target="_blank">${escapeHtml(item.title)}</a></h3>`;
     
-    card += `<div class="item-meta">`;
-    card += `<span class="badge badge-source">${escapeHtml(item.source)}</span>`;
-    card += `<span class="badge badge-score">Score: ${score}</span>`;
-    item.tags.forEach(tag => {
-      card += `<span class="badge badge-tag">${escapeHtml(tag)}</span>`;
-    });
-    card += `</div>`;
-
-    if (item.summary) {
-      const escapedSummary = escapeHtml(item.summary.substring(0, 150));
-      card += `<p style="font-size: 13px; color: #475569; margin: 8px 0;">${escapedSummary}...</p>`;
+    if (isOpportunity) {
+      const intentLevel = (item.scores?.buyerIntentScore ?? 0) >= 15 ? 'High' : 'Medium';
+      card += `<ul class="reason-list" style="margin-bottom: 15px; font-size: 13px;">`;
+      card += `<li><strong>Customer/Niche:</strong> ${escapeHtml(item.category ?? item.tags.join(', '))}</li>`;
+      card += `<li><strong>Buyer Intent:</strong> ${intentLevel}</li>`;
+      card += `<li><strong>Why it matters:</strong> Found via ${escapeHtml(item.source)} (Intent Score: ${item.scores?.buyerIntentScore ?? 0})</li>`;
+      card += `</ul>`;
+    } else {
+      card += `<div class="item-meta">`;
+      card += `<span class="badge badge-source">${escapeHtml(item.source)}</span>`;
+      card += `<span class="badge badge-score">Score: ${score}</span>`;
+      item.tags.forEach(tag => {
+        card += `<span class="badge badge-tag">${escapeHtml(tag)}</span>`;
+      });
+      card += `</div>`;
     }
 
-    if (reasons.length > 0) {
+    if (item.summary) {
+      const escapedSummary = escapeHtml(item.summary.substring(0, isOpportunity ? 300 : 150));
+      card += `<p style="font-size: 13px; color: #475569; margin: 8px 0;">${isOpportunity ? '<strong>Context:</strong> ' : ''}${escapedSummary}${item.summary.length > 150 ? '...' : ''}</p>`;
+    }
+
+    if (!isOpportunity && reasons.length > 0) {
       card += `<ul class="reason-list">`;
       reasons.forEach(r => { card += `<li>${escapeHtml(r)}</li>`; });
       card += `</ul>`;
@@ -90,7 +105,7 @@ export function generateHtmlDigest(
     return card;
   };
 
-  const renderSection = (title: string, list: StandardItem[], sortFn: (a: StandardItem, b: StandardItem) => number) => {
+  const renderSection = (title: string, list: StandardItem[], sortFn: (a: StandardItem, b: StandardItem) => number, isOpportunity = false) => {
     html += `<h2>${title}</h2>`;
     if (list.length === 0) {
       html += `<p class="empty">No signals in this category today.</p>`;
@@ -98,22 +113,24 @@ export function generateHtmlDigest(
     }
     const sorted = [...list].sort(sortFn);
     sorted.slice(0, 10).forEach((item, idx) => {
-      html += renderItemCard(item, idx + 1);
+      html += renderItemCard(item, idx + 1, isOpportunity);
     });
   };
 
-  // 2. Best Opportunities
-  renderSection('🏆 Best Opportunities Today', items.slice(0, 10), (a, b) => (b.scores?.finalScore ?? 0) - (a.scores?.finalScore ?? 0));
+  // 1. Top Buildable Opportunities
+  renderSection('🏆 Top Buildable Opportunities', topOpportunities, (a, b) => (b.scores?.finalScore ?? 0) - (a.scores?.finalScore ?? 0), true);
 
-  // 3. User Pain Points
-  renderSection('🔥 User Pain Points', painPoints, (a, b) => (b.scores?.painScore ?? 0) - (a.scores?.painScore ?? 0));
+  // 2. Strong Pain Points
+  renderSection('🔥 Strong Pain Points', painPoints, (a, b) => (b.scores?.painScore ?? 0) - (a.scores?.painScore ?? 0));
 
-  // 4. SaaS & Startup Ideas
-  const saasStartup = Array.from(new Set([...startupIdeas, ...saas]));
-  renderSection('💡 SaaS & Startup Ideas', saasStartup, (a, b) => ((b.scores?.startupScore ?? 0) + (b.scores?.saasScore ?? 0)) - ((a.scores?.startupScore ?? 0) + (a.scores?.saasScore ?? 0)));
+  // 3. Existing Products / Competitors
+  renderSection('📦 Existing Products & Competitors', competitors, (a, b) => (b.scores?.authorityScore ?? 0) - (a.scores?.authorityScore ?? 0));
+
+  // 4. Distribution & Marketing Lessons
+  renderSection('📈 Distribution & Marketing Lessons', marketing, (a, b) => (b.scores?.marketingScore ?? 0) - (a.scores?.marketingScore ?? 0));
 
   // 5. Tech Trends
-  renderSection('🚀 New Technology Trends', newTech, (a, b) => (b.scores?.trendScore ?? 0) - (a.scores?.trendScore ?? 0));
+  renderSection('🚀 Tech Trends Worth Watching', newTech, (a, b) => (b.scores?.trendScore ?? 0) - (a.scores?.trendScore ?? 0));
 
   // Footer
   html += `<div class="footer">`;

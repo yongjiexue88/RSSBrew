@@ -10,6 +10,10 @@ export type SourceType =
 // ── Multi-dimensional scoring ──
 
 export type ScoreBreakdown = {
+  buyerIntentScore: number;
+  specificityScore: number;
+  promoPenalty: number;
+  junkPenalty: number;
   painScore: number;
   startupScore: number;
   saasScore: number;

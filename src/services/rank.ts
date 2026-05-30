@@ -2,6 +2,67 @@ import type { StandardItem, KeywordsConfig, ScoreBreakdown } from '../types/item
 import { isWithinHours } from '../utils/date.js';
 import { logger } from '../utils/logger.js';
 
+function computeBuyerIntentScore(text: string): { score: number; matchReasons: string[] } {
+  let score = 0;
+  const matchReasons: string[] = [];
+  const strongSignals: [RegExp, number][] = [
+    [/\bwe use spreadsheets?\b/i, 8],
+    [/\bcurrently using\b/i, 5],
+    [/\bpaying \$?\d+/i, 8],
+    [/\btoo expensive\b/i, 6],
+    [/\bmanual(ly)?\b/i, 5],
+    [/\btakes hours\b/i, 6],
+    [/\blooking for a tool\b/i, 8],
+    [/\bany recommendations\b/i, 5],
+    [/\bwhat do you use\b/i, 5],
+    [/\balternative to\b/i, 5],
+    [/\bfor my team\b/i, 6],
+    [/\bfor my business\b/i, 6],
+    [/\bclients?\b/i, 4],
+  ];
+
+  for (const [pattern, points] of strongSignals) {
+    if (pattern.test(text)) {
+      score += points;
+      matchReasons.push(`BuyerIntent: matched ${pattern} (+${points})`);
+    }
+  }
+
+  return { score: Math.min(score, 30), matchReasons };
+}
+
+function computePromoPenalty(text: string, source: string): { penalty: number; matchReasons: string[] } {
+  let penalty = 0;
+  const matchReasons: string[] = [];
+  const promoPatterns = [
+    /\bcomplete guide\b/i,
+    /\bultimate guide\b/i,
+    /\bpros and cons\b/i,
+    /\bpricing\b/i,
+    /\bmy honest review\b/i,
+    /\bwe built\b/i,
+    /\bi built\b/i,
+    /\bpublic beta\b/i,
+    /\blifetime premium\b/i,
+    /\bfree trial\b/i,
+    /\bdevelopment services\b/i,
+  ];
+
+  for (const pattern of promoPatterns) {
+    if (pattern.test(text)) {
+      penalty += 5;
+      matchReasons.push(`PromoPenalty: matched ${pattern} (-5)`);
+    }
+  }
+
+  if (/^u_/.test(source.toLowerCase()) || source.toLowerCase().includes('/u_')) {
+    penalty += 8;
+    matchReasons.push(`PromoPenalty: user profile source (-8)`);
+  }
+
+  return { penalty: Math.min(penalty, 25), matchReasons };
+}
+
 /**
  * Check whether any keyword in the given list matches the text (case-insensitive).
  */
@@ -21,6 +82,38 @@ function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreak
   const text = searchText(item);
   const titleLower = item.title.toLowerCase();
   const reasons: string[] = [];
+
+  // ── V3 Scores ──
+  const { score: buyerIntentScore, matchReasons: buyerReasons } = computeBuyerIntentScore(text);
+  reasons.push(...buyerReasons);
+
+  let specificityScore = 0;
+  const SPECIFICITY_PATTERNS: [RegExp, number][] = [
+    [/\bshopify\b/i, 3],
+    [/\becommerce\b/i, 3],
+    [/\bbookkeeping\b/i, 4],
+    [/\bproperty managers?\b/i, 4],
+    [/\bcontractors?\b/i, 4],
+    [/\bpayroll\b/i, 4],
+    [/\bcompliance\b/i, 4],
+    [/\baudit\b/i, 4],
+    [/\breal estate\b/i, 3],
+    [/\bagency\b/i, 3],
+    [/\bclients?\b/i, 2],
+    [/\bteam\b/i, 2],
+    [/\bworkflow\b/i, 2],
+  ];
+  for (const [pattern, points] of SPECIFICITY_PATTERNS) {
+    if (pattern.test(text)) {
+      specificityScore += points;
+      reasons.push(`Specificity: matched ${pattern} (+${points})`);
+    }
+  }
+
+  const { penalty: promoPenalty, matchReasons: promoReasons } = computePromoPenalty(text, item.source);
+  reasons.push(...promoReasons);
+
+  let junkPenalty = 0;
 
   // ── Pain Score ──
   let painScore = 0;
@@ -194,18 +287,22 @@ function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreak
     recencyScore = -5;
   }
 
-  // ── Final Score (weighted) ──
+  // ── Final Score (weighted) V3 ──
   const finalScore =
-    painScore * 1.8 +
-    startupScore * 1.6 +
-    saasScore * 1.4 +
-    trendScore * 1.2 +
-    marketingScore * 1.1 +
-    authorityScore * 0.8 +
-    devtoolScore * 1.0 +
-    recencyScore * 0.8;
+    buyerIntentScore * 2.2 +
+    painScore * 1.4 +
+    specificityScore * 1.3 +
+    saasScore * 1.1 +
+    authorityScore * 0.7 +
+    recencyScore * 0.5 -
+    promoPenalty * 1.8 -
+    junkPenalty * 3.0;
 
   return {
+    buyerIntentScore,
+    specificityScore,
+    promoPenalty,
+    junkPenalty,
     painScore,
     startupScore,
     saasScore,
