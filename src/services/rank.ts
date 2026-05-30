@@ -12,7 +12,8 @@ function computeBuyerIntentScore(text: string): { score: number; matchReasons: s
     [/\btoo expensive\b/i, 6],
     [/\bmanual(ly)?\b/i, 5],
     [/\btakes hours\b/i, 6],
-    [/\blooking for a tool\b/i, 8],
+    [/\blooking for\s+(?:[a-zA-Z-]+\s+){0,5}tool\b/i, 8],
+    [/\blooking for\s+(?:[a-zA-Z-]+\s+){0,5}alternative\b/i, 7],
     [/\bany recommendations\b/i, 5],
     [/\bwhat do you use\b/i, 5],
     [/\balternative to\b/i, 5],
@@ -78,6 +79,59 @@ function searchText(item: StandardItem): string {
   return [item.title, item.summary ?? ''].join(' ').toLowerCase();
 }
 
+function computeJunkPenalty(item: StandardItem, text: string): { penalty: number; matchReasons: string[] } {
+  let penalty = 0;
+  const matchReasons: string[] = [];
+
+  const junkPatterns = [
+    /\bwar\b|\bpolitics\b|\bamerica\b|\bchina\b|\brussia\b/i,
+    /\bstock\b|\bcrypto\b|\bprice prediction\b/i,
+    /\blegit or scam\b|\btruth exposed\b|\boto\b/i,
+    /\bsoftware development compan(y|ies)\b/i,
+  ];
+
+  for (const pattern of junkPatterns) {
+    if (pattern.test(text)) {
+      penalty += 10;
+      matchReasons.push(`JunkPenalty: matched ${pattern} (-10)`);
+    }
+  }
+
+  if (/\/r\/u_/i.test(item.url) || /^u_/i.test(item.source)) {
+    penalty += 8;
+    matchReasons.push(`JunkPenalty: user profile/url (-8)`);
+  }
+
+  return { penalty: Math.min(penalty, 30), matchReasons };
+}
+
+function computeWorkflowContextScore(text: string): { score: number; matchReasons: string[] } {
+  let score = 0;
+  const matchReasons: string[] = [];
+  const REAL_CONTEXT_PATTERNS = [
+    /\bmy team\b/i,
+    /\bour team\b/i,
+    /\bmy business\b/i,
+    /\bour business\b/i,
+    /\bclients?\b/i,
+    /\bwe currently\b/i,
+    /\bwe use\b/i,
+    /\bevery week\b/i,
+    /\bevery month\b/i,
+    /\bspend .* hours\b/i,
+    /\bpaying\b/i,
+  ];
+
+  for (const pattern of REAL_CONTEXT_PATTERNS) {
+    if (pattern.test(text)) {
+      score += 4;
+      matchReasons.push(`WorkflowContext: matched ${pattern} (+4)`);
+    }
+  }
+
+  return { score, matchReasons };
+}
+
 function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreakdown {
   const text = searchText(item);
   const titleLower = item.title.toLowerCase();
@@ -87,33 +141,67 @@ function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreak
   const { score: buyerIntentScore, matchReasons: buyerReasons } = computeBuyerIntentScore(text);
   reasons.push(...buyerReasons);
 
+  const { score: workflowContextScore, matchReasons: contextReasons } = computeWorkflowContextScore(text);
+  reasons.push(...contextReasons);
+
   let specificityScore = 0;
-  const SPECIFICITY_PATTERNS: [RegExp, number][] = [
-    [/\bshopify\b/i, 3],
-    [/\becommerce\b/i, 3],
-    [/\bbookkeeping\b/i, 4],
-    [/\bproperty managers?\b/i, 4],
-    [/\bcontractors?\b/i, 4],
-    [/\bpayroll\b/i, 4],
-    [/\bcompliance\b/i, 4],
-    [/\baudit\b/i, 4],
-    [/\breal estate\b/i, 3],
-    [/\bagency\b/i, 3],
-    [/\bclients?\b/i, 2],
+  const GENERIC_SPECIFICITY: [RegExp, number][] = [
     [/\bteam\b/i, 2],
+    [/\bclients?\b/i, 2],
     [/\bworkflow\b/i, 2],
+    [/\baudit\b/i, 2],
+    [/\bcompliance\b/i, 2],
+    [/\binvoices?\b/i, 2],
+    [/\breports?\b/i, 2],
+    [/\bcustomers?\b/i, 2],
   ];
-  for (const [pattern, points] of SPECIFICITY_PATTERNS) {
+
+  const INDUSTRY_SPECIFICITY: [RegExp, number][] = [
+    [/\becommerce\b/i, 3],
+    [/\bshopify\b/i, 3],
+    [/\breal estate\b/i, 3],
+    [/\bpayroll\b/i, 3],
+    [/\bcontractors?\b/i, 3],
+    [/\blogistics\b/i, 3],
+    [/\blegal\b/i, 3],
+    [/\bhealthcare\b/i, 3],
+    [/\bproperty managers?\b/i, 3],
+    [/\bbookkeeping\b/i, 3],
+  ];
+
+  const WORKFLOW_SPECIFICITY: [RegExp, number][] = [
+    [/\bapproval\b/i, 3],
+    [/\breporting\b/i, 3],
+    [/\breconciliation\b/i, 3],
+    [/\bonboarding\b/i, 3],
+    [/\bscheduling\b/i, 3],
+    [/\bmonitoring\b/i, 3],
+  ];
+
+  for (const [pattern, points] of GENERIC_SPECIFICITY) {
     if (pattern.test(text)) {
       specificityScore += points;
-      reasons.push(`Specificity: matched ${pattern} (+${points})`);
+      reasons.push(`Specificity (Generic): matched ${pattern} (+${points})`);
+    }
+  }
+  for (const [pattern, points] of INDUSTRY_SPECIFICITY) {
+    if (pattern.test(text)) {
+      specificityScore += points;
+      reasons.push(`Specificity (Industry): matched ${pattern} (+${points})`);
+    }
+  }
+  for (const [pattern, points] of WORKFLOW_SPECIFICITY) {
+    if (pattern.test(text)) {
+      specificityScore += points;
+      reasons.push(`Specificity (Workflow): matched ${pattern} (+${points})`);
     }
   }
 
   const { penalty: promoPenalty, matchReasons: promoReasons } = computePromoPenalty(text, item.source);
   reasons.push(...promoReasons);
 
-  let junkPenalty = 0;
+  const { penalty: junkPenalty, matchReasons: junkReasons } = computeJunkPenalty(item, text);
+  reasons.push(...junkReasons);
 
   // ── Pain Score ──
   let painScore = 0;
@@ -139,9 +227,9 @@ function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreak
     painScore += 3;
     reasons.push('Pain: matched painPoint keyword (+3)');
   }
-  if (item.sourceType === 'reddit_search') {
-    painScore += 3;
-    reasons.push('Pain: Reddit search source (+3)');
+  if (item.sourceType === 'reddit_search' && buyerIntentScore >= 5) {
+    painScore += 2;
+    reasons.push('Pain: Reddit search source with buyer intent (+2)');
   }
 
   // ── Startup Score ──
@@ -300,6 +388,7 @@ function computeScores(item: StandardItem, keywords: KeywordsConfig): ScoreBreak
 
   return {
     buyerIntentScore,
+    workflowContextScore,
     specificityScore,
     promoPenalty,
     junkPenalty,

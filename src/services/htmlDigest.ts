@@ -10,6 +10,19 @@ function escapeHtml(text: string): string {
     .replace(/'/g, '&#039;');
 }
 
+function inferCustomer(item: StandardItem): string {
+  const text = `${item.title} ${item.summary ?? ''}`.toLowerCase();
+
+  if (text.includes('shopify') || text.includes('ecommerce')) return 'Ecommerce operators';
+  if (text.includes('payroll') || text.includes('contractor')) return 'Ops/finance teams managing contractors';
+  if (text.includes('property manager')) return 'Property managers';
+  if (text.includes('agency') || text.includes('clients')) return 'Agencies / freelancers';
+  if (text.includes('audit') || text.includes('compliance')) return 'Compliance-heavy teams';
+  if (text.includes('bookkeeping') || text.includes('invoice')) return 'Finance / accounting teams';
+
+  return item.category ? `Unclear, source category: ${item.category}` : 'Unclear';
+}
+
 export function generateHtmlDigest(
   items: StandardItem[],
   stats: { totalCollected: number; afterDedupe: number; afterFilter: number }
@@ -17,9 +30,11 @@ export function generateHtmlDigest(
   const dateStr = todayDateString();
   const topOpportunities = items.filter(
     (i) =>
+      (i.scores?.finalScore ?? 0) >= 30 &&
       (i.scores?.buyerIntentScore ?? 0) >= 8 &&
+      (i.scores?.workflowContextScore ?? 0) >= 4 &&
       (i.scores?.promoPenalty ?? 0) <= 10 &&
-      (i.scores?.junkPenalty ?? 0) === 0 &&
+      (i.scores?.junkPenalty ?? 0) <= 5 &&
       i.tags.includes('pain-point')
   );
   
@@ -77,9 +92,10 @@ export function generateHtmlDigest(
     if (isOpportunity) {
       const intentLevel = (item.scores?.buyerIntentScore ?? 0) >= 15 ? 'High' : 'Medium';
       card += `<ul class="reason-list" style="margin-bottom: 15px; font-size: 13px;">`;
-      card += `<li><strong>Customer/Niche:</strong> ${escapeHtml(item.category ?? item.tags.join(', '))}</li>`;
+      card += `<li><strong>Customer/Niche:</strong> ${escapeHtml(inferCustomer(item))}</li>`;
       card += `<li><strong>Buyer Intent:</strong> ${intentLevel}</li>`;
-      card += `<li><strong>Why it matters:</strong> Found via ${escapeHtml(item.source)} (Intent Score: ${item.scores?.buyerIntentScore ?? 0})</li>`;
+      card += `<li><strong>Scores:</strong> Final ${item.scores?.finalScore ?? 0} | Intent ${item.scores?.buyerIntentScore ?? 0} | Pain ${item.scores?.painScore ?? 0} | Promo Penalty ${item.scores?.promoPenalty ?? 0}</li>`;
+      card += `<li><strong>Why it matters:</strong> Found via ${escapeHtml(item.source)}</li>`;
       card += `</ul>`;
     } else {
       card += `<div class="item-meta">`;

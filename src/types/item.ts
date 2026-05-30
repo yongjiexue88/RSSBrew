@@ -11,6 +11,7 @@ export type SourceType =
 
 export type ScoreBreakdown = {
   buyerIntentScore: number;
+  workflowContextScore: number;
   specificityScore: number;
   promoPenalty: number;
   junkPenalty: number;

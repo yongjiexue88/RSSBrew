@@ -1,8 +1,25 @@
 import type { StandardItem } from '../types/item.js';
 import { todayDateString } from '../utils/date.js';
 
-function escapeMarkdown(text: string): string {
-  return text.replace(/\[/g, '\\[').replace(/\]/g, '\\]');
+function escapeMarkdownText(text: string): string {
+  return text
+    .replace(/\\/g, '\\\\')
+    .replace(/\[/g, '\\[')
+    .replace(/\]/g, '\\]')
+    .replace(/\|/g, '\\|');
+}
+
+function inferCustomer(item: StandardItem): string {
+  const text = `${item.title} ${item.summary ?? ''}`.toLowerCase();
+
+  if (text.includes('shopify') || text.includes('ecommerce')) return 'Ecommerce operators';
+  if (text.includes('payroll') || text.includes('contractor')) return 'Ops/finance teams managing contractors';
+  if (text.includes('property manager')) return 'Property managers';
+  if (text.includes('agency') || text.includes('clients')) return 'Agencies / freelancers';
+  if (text.includes('audit') || text.includes('compliance')) return 'Compliance-heavy teams';
+  if (text.includes('bookkeeping') || text.includes('invoice')) return 'Finance / accounting teams';
+
+  return item.category ? `Unclear, source category: ${item.category}` : 'Unclear';
 }
 
 export function generateMarkdownDigest(
@@ -14,9 +31,11 @@ export function generateMarkdownDigest(
 
   const topOpportunities = items.filter(
     (i) =>
+      (i.scores?.finalScore ?? 0) >= 30 &&
       (i.scores?.buyerIntentScore ?? 0) >= 8 &&
+      (i.scores?.workflowContextScore ?? 0) >= 4 &&
       (i.scores?.promoPenalty ?? 0) <= 10 &&
-      (i.scores?.junkPenalty ?? 0) === 0 &&
+      (i.scores?.junkPenalty ?? 0) <= 5 &&
       i.tags.includes('pain-point')
   );
   
@@ -62,13 +81,14 @@ export function generateMarkdownDigest(
   } else {
     sortedTop.slice(0, 10).forEach((item, index) => {
       const intentLevel = (item.scores?.buyerIntentScore ?? 0) >= 15 ? 'High' : 'Medium';
-      const snippet = item.summary ? escapeMarkdown(item.summary.substring(0, 300).replace(/\n/g, ' ')) : 'No description available';
+      const snippet = item.summary ? escapeMarkdownText(item.summary.substring(0, 300).replace(/\n/g, ' ')) : 'No description available';
       
-      lines.push(`### ${index + 1}. [${escapeMarkdown(item.title)}](${item.url})`);
-      lines.push(`- **Customer/Niche:** ${escapeMarkdown(item.category ?? item.tags.join(', '))}`);
+      lines.push(`### ${index + 1}. [${escapeMarkdownText(item.title)}](${item.url})`);
+      lines.push(`- **Customer/Niche:** ${escapeMarkdownText(inferCustomer(item))}`);
       lines.push(`- **Context:** ${snippet}...`);
       lines.push(`- **Buyer Intent:** ${intentLevel}`);
-      lines.push(`- **Why it matters:** Found via ${escapeMarkdown(item.source)} (Intent Score: ${item.scores?.buyerIntentScore ?? 0})\n`);
+      lines.push(`- **Scores:** Final ${item.scores?.finalScore ?? 0} | Intent ${item.scores?.buyerIntentScore ?? 0} | Pain ${item.scores?.painScore ?? 0} | Promo Penalty ${item.scores?.promoPenalty ?? 0}`);
+      lines.push(`- **Why it matters:** Found via ${escapeMarkdownText(item.source)}\n`);
     });
   }
 
@@ -79,7 +99,7 @@ export function generateMarkdownDigest(
     (a, b) => (b.scores?.painScore ?? 0) - (a.scores?.painScore ?? 0),
     (item) => {
       const snippet = item.summary ? ` | ${item.summary.substring(0, 100).replace(/\n/g, ' ')}...` : '';
-      return `- [${escapeMarkdown(item.title)}](${item.url}) — ${item.source} | Pain: ${item.scores?.painScore ?? 0}${snippet}`;
+      return `- [${escapeMarkdownText(item.title)}](${item.url}) — ${escapeMarkdownText(item.source)} | Pain: ${item.scores?.painScore ?? 0}${snippet}`;
     }
   );
 
@@ -88,7 +108,7 @@ export function generateMarkdownDigest(
   renderList(
     competitors,
     (a, b) => (b.scores?.authorityScore ?? 0) - (a.scores?.authorityScore ?? 0),
-    (item) => `- [${escapeMarkdown(item.title)}](${item.url}) — ${item.source} | Authority: ${item.scores?.authorityScore ?? 0}`
+    (item) => `- [${escapeMarkdownText(item.title)}](${item.url}) — ${escapeMarkdownText(item.source)} | Authority: ${item.scores?.authorityScore ?? 0}`
   );
 
   // 5. Marketing & Distribution
@@ -96,7 +116,7 @@ export function generateMarkdownDigest(
   renderList(
     marketing,
     (a, b) => (b.scores?.marketingScore ?? 0) - (a.scores?.marketingScore ?? 0),
-    (item) => `- [${escapeMarkdown(item.title)}](${item.url}) — ${item.source} | Marketing: ${item.scores?.marketingScore ?? 0}`
+    (item) => `- [${escapeMarkdownText(item.title)}](${item.url}) — ${escapeMarkdownText(item.source)} | Marketing: ${item.scores?.marketingScore ?? 0}`
   );
 
   // 6. New Technology Trends
@@ -104,7 +124,7 @@ export function generateMarkdownDigest(
   renderList(
     newTech,
     (a, b) => (b.scores?.trendScore ?? 0) - (a.scores?.trendScore ?? 0),
-    (item) => `- [${escapeMarkdown(item.title)}](${item.url}) — ${item.source} | Trend: ${item.scores?.trendScore ?? 0}`
+    (item) => `- [${escapeMarkdownText(item.title)}](${item.url}) — ${escapeMarkdownText(item.source)} | Trend: ${item.scores?.trendScore ?? 0}`
   );
 
   // 7. Action Items

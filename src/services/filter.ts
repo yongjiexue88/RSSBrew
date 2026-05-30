@@ -45,7 +45,7 @@ export function filterItems(items: StandardItem[], keywords: KeywordsConfig): St
 
     // Rule: strict SPAM/Junk pattern matching
     const isSpam = SPAM_TITLE_PATTERNS.some(pattern => pattern.test(item.title));
-    if (isSpam && !matchesMustKeep) {
+    if (isSpam) {
       droppedByKeyword++;
       return false;
     }

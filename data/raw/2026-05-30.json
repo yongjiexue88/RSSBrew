@@ -1,0 +1,3523 @@
+[
+  {
+    "id": "rsearch-lfeedbackona",
+    "title": "What’s the fastest you’ve gotten real feedback on a feature idea?",
+    "url": "https://www.reddit.com/r/founder/comments/1trhddd/whats_the_fastest_youve_gotten_real_feedback_on_a/",
+    "source": "Looking for a tool",
+    "sourceType": "reddit_search",
+    "category": "pain-point",
+    "publishedAt": "2026-05-29T22:11:34.000Z",
+    "fetchedAt": "2026-05-30T00:29:24.957Z",
+    "summary": "Not looking for a tool recommendation, genuinely curious about process. If you have a feature hypothesis today, what does your fastest path to “yes build this” or “no don’t” actually look like? Talking to users 1:1? Discord/Slack polls? Putting up a landing page? Something else? I’ve seen timelines range from “48 hours” to “we ship and measure” to “honestly we just guess.” Would love to hear what’s working.\n    submitted by    /u/pink-walrus26    to    r/founder  \n [link]   [comments]",
+    "tags": [
+      "pain-point",
+      "startup-idea",
+      "marketing"
+    ],
+    "relevanceScore": 38,
+    "raw": {
+      "title": "What’s the fastest you’ve gotten real feedback on a feature idea?",
+      "link": "https://www.reddit.com/r/founder/comments/1trhddd/whats_the_fastest_youve_gotten_real_feedback_on_a/",
+      "pubDate": "2026-05-29T22:11:34.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 8,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 13,
+      "startupScore": 9,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 38.3,
+      "reasons": [
+        "BuyerIntent: matched /\\blooking for\\s+(?:[a-zA-Z-]+\\s+){0,5}tool\\b/i (+8)",
+        "Pain: matched \"looking for a tool\" (+8)",
+        "Pain: matched \"recommend\" (+3)",
+        "Pain: Reddit search source with buyer intent (+2)",
+        "Startup: high pain score (+5)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rsearch-inothermedia",
+    "title": "Which tool finds audio samples within other media files?",
+    "url": "https://www.reddit.com/r/linuxaudio/comments/1trftw3/which_tool_finds_audio_samples_within_other_media/",
+    "source": "Looking for a tool",
+    "sourceType": "reddit_search",
+    "category": "pain-point",
+    "publishedAt": "2026-05-29T21:12:41.000Z",
+    "fetchedAt": "2026-05-30T00:29:24.957Z",
+    "summary": "I am not looking for a music name identification service like Shazam, AHA-Music, or Mousai, but I would like to identify a given audio sample within other media files, meaning within other audio files and audio tracks from video files.\n Say I have a hundred video files and I would like to find out which of them contain the same music as \"sample.mp3\".\n I am looking for a tool that scans the videos and returns something like \"video17.mp4 at time 06:21 contains the same music as sample.mp3\".\n This ",
+    "tags": [
+      "pain-point",
+      "startup-idea"
+    ],
+    "relevanceScore": 34,
+    "raw": {
+      "title": "Which tool finds audio samples within other media files?",
+      "link": "https://www.reddit.com/r/linuxaudio/comments/1trftw3/which_tool_finds_audio_samples_within_other_media/",
+      "pubDate": "2026-05-29T21:12:41.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 8,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 10,
+      "startupScore": 13,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 34.1,
+      "reasons": [
+        "BuyerIntent: matched /\\blooking for\\s+(?:[a-zA-Z-]+\\s+){0,5}tool\\b/i (+8)",
+        "Pain: matched \"looking for a tool\" (+8)",
+        "Pain: Reddit search source with buyer intent (+2)",
+        "Startup: high pain score (+5)",
+        "Startup: title contains tool/automation/workflow (+4)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-aasagoodidea",
+    "title": "Is a tatto studio crm saas a good idea",
+    "url": "https://www.reddit.com/r/SaaS/comments/1trhcxv/is_a_tatto_studio_crm_saas_a_good_idea/",
+    "source": "Reddit SaaS",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:11:05.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.113Z",
+    "summary": "I am currently building a crm for tattoo studios to help them manage their schedule and bookings and send booking links to their clients and also manage their financing and invoices\n is that a good idea? truly need some feedback also how can i market this cuz it seems like i am targeting a small niche\n    submitted by    /u/NetworkNo8691  \n [link]   [comments]",
+    "tags": [
+      "startup-idea",
+      "saas",
+      "developer-tool"
+    ],
+    "relevanceScore": 22,
+    "raw": {
+      "title": "Is a tatto studio crm saas a good idea",
+      "link": "https://www.reddit.com/r/SaaS/comments/1trhcxv/is_a_tatto_studio_crm_saas_a_good_idea/",
+      "pubDate": "2026-05-29T22:11:05.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 4,
+      "workflowContextScore": 4,
+      "specificityScore": 4,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 5,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 22,
+      "reasons": [
+        "BuyerIntent: matched /\\bclients?\\b/i (+4)",
+        "WorkflowContext: matched /\\bclients?\\b/i (+4)",
+        "Specificity (Generic): matched /\\bclients?\\b/i (+2)",
+        "Specificity (Generic): matched /\\binvoices?\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: title contains crm/reporting (+3)",
+        "SaaS: matched saas keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-tingincident",
+    "title": "Cutting alert fatigue by automating incident investigation",
+    "url": "https://www.reddit.com/r/devops/comments/1trii5o/cutting_alert_fatigue_by_automating_incident/",
+    "source": "Reddit DevOps",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:57:39.000Z",
+    "fetchedAt": "2026-05-30T00:29:34.133Z",
+    "summary": "Alert fatigue is usually blamed on alert tuning, but most teams miss the bigger problem: investigation overhead.\n You get an alert. You have to manually dig through logs, check recent changes, run queries, identify what broke. That takes time and cognitive load even if the alert is legitimate. That's where alert fatigue really comes from.\n Two-layer approach:\n Layer 1: Alert composition - Stop alerting on individual metrics (CPU, memory, disk). Group them into service-level alerts that tell engi",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 18,
+    "raw": {
+      "title": "Cutting alert fatigue by automating incident investigation",
+      "link": "https://www.reddit.com/r/devops/comments/1trii5o/cutting_alert_fatigue_by_automating_incident/",
+      "pubDate": "2026-05-29T22:57:39.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 5,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 17.7,
+      "reasons": [
+        "BuyerIntent: matched /\\bmanual(ly)?\\b/i (+5)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-eandowesme9k",
+    "title": "HELP! Client has become unresponsive and owes me $9k.",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1treox2/help_client_has_become_unresponsive_and_owes_me_9k/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:30:35.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "Okay so here's the details: I've been working with this creative agency and did their clients branding. I invoiced at the end of the year the final branding payments as I gave them a deposit before as each project started. We agreed on 4 installments via email from Feb-April 2026. I've only recieved the first installment back in Feb and after that I've followed up 6 times and have reached no response back. I've also reached out to the director which I worked very closely with and she said she'll",
+    "tags": [
+      "startup-idea",
+      "saas",
+      "new-tech",
+      "developer-tool"
+    ],
+    "relevanceScore": 16,
+    "raw": {
+      "title": "HELP! Client has become unresponsive and owes me $9k.",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1treox2/help_client_has_become_unresponsive_and_owes_me_9k/",
+      "pubDate": "2026-05-29T20:30:35.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 4,
+      "workflowContextScore": 4,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 2,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 16.1,
+      "reasons": [
+        "BuyerIntent: matched /\\bclients?\\b/i (+4)",
+        "WorkflowContext: matched /\\bclients?\\b/i (+4)",
+        "Specificity (Generic): matched /\\bclients?\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-owdownlately",
+    "title": "Anyone else seeing sales slow down lately?",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1trh7wf/anyone_else_seeing_sales_slow_down_lately/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:05:44.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "Trying to sanity check if this is just us or if others are seeing the same thing.\n I’m especially curious because sentiment in the US feels pretty pessimistic right now, but I’m wondering how much of that is actually showing up in sales / demand.\n Are you noticing customers pulling back, taking longer to buy, negotiating more, or delaying purchases?\n We’ve been noticing some shifts on our end, so I figured I’d ask other merchants / ecommerce operators what they’re seeing too.\n Also curious what ",
+    "tags": [
+      "pain-point",
+      "saas"
+    ],
+    "relevanceScore": 15,
+    "raw": {
+      "title": "Anyone else seeing sales slow down lately?",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1trh7wf/anyone_else_seeing_sales_slow_down_lately/",
+      "pubDate": "2026-05-29T22:05:44.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 5,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 15.4,
+      "reasons": [
+        "Specificity (Generic): matched /\\bcustomers?\\b/i (+2)",
+        "Specificity (Industry): matched /\\becommerce\\b/i (+3)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-yforexterior",
+    "title": "Landlord is asking me to pay for exterior property upgrades and improvements of 25k+ when I asked to renew an expiring lease. Is this legal? He said if I don’t want to pay 25k and",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1trgbrk/landlord_is_asking_me_to_pay_for_exterior/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:30:59.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "The upgrades were involuntary and we never asked for them. Is this legal and what are my options?\n He said if I don’t want to pay 25k and proceed with lease renewal, let him know, so he can market the space. \n    submitted by    /u/Painter_Perfect  \n [link]   [comments]",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 11,
+    "raw": {
+      "title": "Landlord is asking me to pay for exterior property upgrades and improvements of 25k+ when I asked to renew an expiring lease. Is this legal? He said if I don’t want to pay 25k and",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1trgbrk/landlord_is_asking_me_to_pay_for_exterior/",
+      "pubDate": "2026-05-29T21:30:59.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 3,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 10.6,
+      "reasons": [
+        "Specificity (Industry): matched /\\blegal\\b/i (+3)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48324097",
+    "title": "Danish Pension Blacklists SpaceX over 'Catastrophic Governance'",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-29/danish-pension-fund-blacklists-spacex-citing-governance-issues",
+    "source": "HN Best",
+    "sourceType": "hacker_news",
+    "category": "hn-best",
+    "author": "leopoldj",
+    "publishedAt": "2026-05-29T15:11:23.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.411Z",
+    "score": 236,
+    "commentsCount": 151,
+    "tags": [],
+    "relevanceScore": 11,
+    "raw": {
+      "by": "leopoldj",
+      "descendants": 151,
+      "id": 48324097,
+      "kids": [
+        48325220,
+        48324451,
+        48325044,
+        48326597,
+        48324755,
+        48325246,
+        48325730,
+        48326222,
+        48325284,
+        48324599,
+        48325764,
+        48325930,
+        48326317,
+        48325569,
+        48324206,
+        48325100,
+        48325178,
+        48324898
+      ],
+      "score": 236,
+      "time": 1780067483,
+      "title": "Danish Pension Blacklists SpaceX over 'Catastrophic Governance'",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-29/danish-pension-fund-blacklists-spacex-citing-governance-issues"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 11.5,
+      "recencyScore": 5,
+      "finalScore": 10.5,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 236, comments 151 (+11.5)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48318522",
+    "title": "Let's compile Quake like it's 1997",
+    "url": "https://fabiensanglard.net/compile_like_1997/",
+    "source": "HN Best",
+    "sourceType": "hacker_news",
+    "category": "hn-best",
+    "author": "goranmoomin",
+    "publishedAt": "2026-05-29T03:07:22.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.411Z",
+    "score": 198,
+    "commentsCount": 63,
+    "tags": [],
+    "relevanceScore": 10,
+    "raw": {
+      "by": "goranmoomin",
+      "descendants": 63,
+      "id": 48318522,
+      "kids": [
+        48320710,
+        48323503,
+        48321178,
+        48321854,
+        48324618,
+        48327668,
+        48323547,
+        48320740,
+        48322316,
+        48328060,
+        48324022,
+        48323572,
+        48318683
+      ],
+      "score": 198,
+      "time": 1780024042,
+      "title": "Let's compile Quake like it's 1997",
+      "type": "story",
+      "url": "https://fabiensanglard.net/compile_like_1997/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 10.5,
+      "recencyScore": 5,
+      "finalScore": 9.9,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 198, comments 63 (+10.5)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48324853",
+    "title": "You can just say it",
+    "url": "https://noperator.dev/posts/you-can-just-say-it/",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "antirez",
+    "publishedAt": "2026-05-29T15:54:28.000Z",
+    "fetchedAt": "2026-05-30T00:29:24.854Z",
+    "score": 151,
+    "commentsCount": 57,
+    "tags": [],
+    "relevanceScore": 10,
+    "raw": {
+      "by": "antirez",
+      "descendants": 57,
+      "id": 48324853,
+      "kids": [
+        48330854,
+        48330645,
+        48324894,
+        48330862,
+        48331077,
+        48325143,
+        48330841,
+        48330772,
+        48330679,
+        48331065,
+        48330890,
+        48330715,
+        48330946,
+        48330849,
+        48330462,
+        48330855,
+        48330977
+      ],
+      "score": 151,
+      "time": 1780070068,
+      "title": "You can just say it",
+      "type": "story",
+      "url": "https://noperator.dev/posts/you-can-just-say-it/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 10.1,
+      "recencyScore": 5,
+      "finalScore": 9.6,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 151, comments 57 (+10.1)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-calgamestore",
+    "title": "Local Game Store",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1trgzpr/local_game_store/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:57:00.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "Hey everyone I just wanna say thanks for taking your time to read this. I’ve been thinking for a long while about starting a local game store in my neighborhood. I live in a medium sized city with a I think 4 or 5 other LGS that are all really solid and have a great customer base. Problem is, there aren’t any in my specific part of town and I think it could be a really good thing for the people around here. Has anyone here started one and what advice would you have? What sort of things should I ",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "title": "Local Game Store",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1trgzpr/local_game_store/",
+      "pubDate": "2026-05-29T21:57:00.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 9.3,
+      "reasons": [
+        "Specificity (Generic): matched /\\bcustomers?\\b/i (+2)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48310280",
+    "title": "The Permanent Upper Crow",
+    "url": "https://permanent-upper-crow.jasonwu.ink/",
+    "source": "HN Best",
+    "sourceType": "hacker_news",
+    "category": "hn-best",
+    "author": "whiteblossom",
+    "publishedAt": "2026-05-28T15:23:04.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.411Z",
+    "score": 214,
+    "commentsCount": 81,
+    "tags": [],
+    "relevanceScore": 9,
+    "raw": {
+      "by": "whiteblossom",
+      "descendants": 81,
+      "id": 48310280,
+      "kids": [
+        48312140,
+        48317173,
+        48317415,
+        48311414,
+        48313404,
+        48316403,
+        48311619,
+        48311460,
+        48320714,
+        48313186,
+        48312267,
+        48311154,
+        48313683,
+        48311345,
+        48316755,
+        48315327,
+        48312622,
+        48314728,
+        48314000,
+        48312007,
+        48311377,
+        48311153,
+        48315981
+      ],
+      "score": 214,
+      "time": 1779981784,
+      "title": "The Permanent Upper Crow",
+      "type": "story",
+      "url": "https://permanent-upper-crow.jasonwu.ink/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 10.8,
+      "recencyScore": 3,
+      "finalScore": 9.1,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 214, comments 81 (+10.8)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-ockedbehinda",
+    "title": "Shopify's bot protection is locked behind a $2,300/month plan and most store owners don't know it",
+    "url": "https://www.reddit.com/r/ecommerce/comments/1trgy7s/shopifys_bot_protection_is_locked_behind_a/",
+    "source": "Reddit Ecommerce",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:55:23.000Z",
+    "fetchedAt": "2026-05-30T00:29:38.585Z",
+    "summary": "Bots are hitting cart/add.js directly while bypassing your storefront entirely, inflating inventory holds, triggering fake checkouts, and running card testing attacks on your store.\n Shopify only gives you proper protection if you're on Plus, everyone else is exposed.\n I've been building a solution for this for the past few weeks, IP blocking, browser fingerprinting, auto-cancel on fraud orders, chargeback report generation, and It's live.\n Happy to answer questions about how the attacks actuall",
+    "tags": [],
+    "relevanceScore": 9,
+    "raw": {
+      "title": "Shopify's bot protection is locked behind a $2,300/month plan and most store owners don't know it",
+      "link": "https://www.reddit.com/r/ecommerce/comments/1trgy7s/shopifys_bot_protection_is_locked_behind_a/",
+      "pubDate": "2026-05-29T21:55:23.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 5,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 9,
+      "reasons": [
+        "Specificity (Generic): matched /\\breports?\\b/i (+2)",
+        "Specificity (Industry): matched /\\bshopify\\b/i (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-usingbesides",
+    "title": "what payment processor are people using besides stripe?",
+    "url": "https://www.reddit.com/r/SaaS/comments/1trjejj/what_payment_processor_are_people_using_besides/",
+    "source": "Reddit SaaS",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:35:22.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.113Z",
+    "summary": "we’re building a SaaS with a mix of subscriptions and one-time purchases, and while stripe seems to be the default recommendation, I’m curious what alternatives people are actually happy with.\n not necessarily looking for the absolute lowest fees, but something that’s easy to maintain, handles recurring billing well, and doesn’t create a bunch of operational headaches later.\n for those who considered or switched away from stripe, what did you end up using and why?\n    submitted by    /u/Zealousi",
+    "tags": [
+      "pain-point",
+      "startup-idea",
+      "saas"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "title": "what payment processor are people using besides stripe?",
+      "link": "https://www.reddit.com/r/SaaS/comments/1trjejj/what_payment_processor_are_people_using_besides/",
+      "pubDate": "2026-05-29T23:35:22.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 8.9,
+      "reasons": [
+        "Pain: matched \"recommend\" (+3)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-llnotpromote",
+    "title": "Cold calling question [I will not promote]",
+    "url": "https://www.reddit.com/r/startups/comments/1trjdc9/cold_calling_question_i_will_not_promote/",
+    "source": "Reddit Startups",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:33:52.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.840Z",
+    "summary": "Cold calling question:\n How do you get past gatekeepers at small businesses?\n I'm calling home service companies and it feels like 90% of my calls end with an office manager asking what it's about and then politely shutting it down before I can talk to the owner.\n For those doing SMB outbound successfully, what does your opener sound like? What actually gets you through to the decision maker without sounding like every other salesperson?\n Looking for real-world advice, not sales trainer scripts.",
+    "tags": [
+      "pain-point",
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "title": "Cold calling question [I will not promote]",
+      "link": "https://www.reddit.com/r/startups/comments/1trjdc9/cold_calling_question_i_will_not_promote/",
+      "pubDate": "2026-05-29T23:33:52.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 8.9,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-ealthrecords",
+    "title": "Self-hosted app to store health records?",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trgag9/selfhosted_app_to_store_health_records/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:29:42.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "Starting to get more serious about my health. I need something that helps me track vaccines, surgeries, blood work, etc.\n Optionally: it would be nice if it supported some way to feed the data to an LLM like an MCP server or something. But this is not a requirement at all.\n Edit:\n I already use paperless-ngx for documents in general. But The way these document managers work is via OCR, tags and AI and search.\n I'm looking for something that is timeline-based. For health information you want to k",
+    "tags": [
+      "pain-point",
+      "saas",
+      "new-tech"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "title": "Self-hosted app to store health records?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trgag9/selfhosted_app_to_store_health_records/",
+      "pubDate": "2026-05-29T21:29:42.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 2,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 8.9,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48318678",
+    "title": "Blue Origin’s New Glenn rocket exploded during a static fire test",
+    "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
+    "source": "HN Best",
+    "sourceType": "hacker_news",
+    "category": "hn-best",
+    "author": "benbreen",
+    "publishedAt": "2026-05-29T03:32:15.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.411Z",
+    "score": 209,
+    "commentsCount": 8,
+    "tags": [],
+    "relevanceScore": 9,
+    "raw": {
+      "by": "benbreen",
+      "descendants": 8,
+      "id": 48318678,
+      "kids": [
+        48319014,
+        48319034,
+        48318826,
+        48319751,
+        48320254,
+        48320221,
+        48319950,
+        48318861
+      ],
+      "score": 209,
+      "time": 1780025535,
+      "title": "Blue Origin’s New Glenn rocket exploded during a static fire test",
+      "type": "story",
+      "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 8.9,
+      "recencyScore": 5,
+      "finalScore": 8.7,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 209, comments 8 (+8.9)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48319524",
+    "title": "Show HN: Zot – Yet another coding agent harness",
+    "url": "https://www.zot.sh",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "patriceckhart",
+    "publishedAt": "2026-05-29T05:48:21.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.165Z",
+    "score": 58,
+    "commentsCount": 60,
+    "tags": [
+      "startup-idea",
+      "new-tech"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "by": "patriceckhart",
+      "descendants": 60,
+      "id": 48319524,
+      "kids": [
+        48329598,
+        48329692,
+        48330701,
+        48330889,
+        48320113,
+        48329920,
+        48320204,
+        48330309,
+        48319909,
+        48329824,
+        47941645,
+        48329864,
+        48329618,
+        48320311,
+        48320231,
+        48320482
+      ],
+      "score": 58,
+      "time": 1780033701,
+      "title": "Show HN: Zot – Yet another coding agent harness",
+      "type": "story",
+      "url": "https://www.zot.sh"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 11,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 8.9,
+      "recencyScore": 5,
+      "finalScore": 8.7,
+      "reasons": [
+        "Startup: matched startupIdea keyword (+2)",
+        "Trend: title contains agent (+6)",
+        "Trend: Hacker News source (+3)",
+        "Trend: matched newTech keyword (+2)",
+        "Authority: score 58, comments 60 (+8.9)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48317294",
+    "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+    "url": "https://minimaxir.com/2026/05/openrouter-hy3/",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "freediver",
+    "publishedAt": "2026-05-29T00:09:35.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.165Z",
+    "score": 101,
+    "commentsCount": 93,
+    "tags": [
+      "new-tech"
+    ],
+    "relevanceScore": 9,
+    "raw": {
+      "by": "freediver",
+      "descendants": 93,
+      "id": 48317294,
+      "kids": [
+        48318976,
+        48319302,
+        48318128,
+        48318996,
+        48317823,
+        48319667,
+        48318325,
+        48319827,
+        48318587,
+        48321156,
+        48319895,
+        48319517,
+        48322355,
+        48319183,
+        48319109,
+        48323644,
+        48318931,
+        48317734
+      ],
+      "score": 101,
+      "time": 1780013375,
+      "title": "The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin",
+      "type": "story",
+      "url": "https://minimaxir.com/2026/05/openrouter-hy3/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 5,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 10,
+      "recencyScore": 3,
+      "finalScore": 8.5,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Trend: matched newTech keyword (+2)",
+        "Authority: score 101, comments 93 (+10.0)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-edediwillnot",
+    "title": "Medtech b2b sales growth advice needed - i will not promote",
+    "url": "https://www.reddit.com/r/startups/comments/1trfbpi/medtech_b2b_sales_growth_advice_needed_i_will_not/",
+    "source": "Reddit Startups",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:53:35.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.840Z",
+    "summary": "Can anyone with first hand experience advise on how they grew sales from founder led on-field sales to team-led sales so they could engage on strategic initiatives?\n What worked for you and what failed?\n I am a medtech founder having a company that sells precision super speciality surgical instruments with an initial footprint in India and some exports.\n But we don’t have a sales engine that runs without my active involvement.\n I want to change that and at least build an India team so I can work",
+    "tags": [
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Medtech b2b sales growth advice needed - i will not promote",
+      "link": "https://www.reddit.com/r/startups/comments/1trfbpi/medtech_b2b_sales_growth_advice_needed_i_will_not/",
+      "pubDate": "2026-05-29T20:53:35.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 7,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 7.3,
+      "reasons": [
+        "Specificity (Generic): matched /\\bteam\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: title contains distribution/growth (+5)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-llnotpromote",
+    "title": "Medtech b2b sales growth - i will not promote",
+    "url": "https://www.reddit.com/r/startups/comments/1trdonb/medtech_b2b_sales_growth_i_will_not_promote/",
+    "source": "Reddit Startups",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T19:54:30.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.840Z",
+    "summary": "Can anyone with first hand experience advise on how they grew sales from founder led on-field sales to team-led sales so they could engage on strategic initiatives?\n What worked for you and what failed?\n I am a medtech founder having a company that sells precision super speciality surgical instruments with an initial footprint in India and some exports.\n But we don’t have a sales engine that runs without my active involvement. \n I want to change that and at least build an India team so I can wor",
+    "tags": [
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Medtech b2b sales growth - i will not promote",
+      "link": "https://www.reddit.com/r/startups/comments/1trdonb/medtech_b2b_sales_growth_i_will_not_promote/",
+      "pubDate": "2026-05-29T19:54:30.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 7,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 7.3,
+      "reasons": [
+        "Specificity (Generic): matched /\\bteam\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: title contains distribution/growth (+5)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-ercebusiness",
+    "title": "My dad wants me to run an e-commerce business under his name and I don’t know how to feel about it",
+    "url": "https://www.reddit.com/r/ecommerce/comments/1trhhdy/my_dad_wants_me_to_run_an_ecommerce_business/",
+    "source": "Reddit Ecommerce",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:16:00.000Z",
+    "fetchedAt": "2026-05-30T00:29:38.585Z",
+    "summary": "I 24M was recently told by my dad that he wants to start an e-commerce business. His idea is that he buys the inventory and registers the business under his name while I do everything else like creating the website, taking product photos, handling shipping, customer service, marketing, and running the entire online side of things. The business would be registered under his name and he said to get serious because he will plan with my older brother and get a business name.\n The thing is my dad has",
+    "tags": [
+      "saas"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "My dad wants me to run an e-commerce business under his name and I don’t know how to feel about it",
+      "link": "https://www.reddit.com/r/ecommerce/comments/1trhhdy/my_dad_wants_me_to_run_an_ecommerce_business/",
+      "pubDate": "2026-05-29T22:16:00.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 7.3,
+      "reasons": [
+        "Specificity (Generic): matched /\\bcustomers?\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rsearch-rusefastlane",
+    "title": "👋 Welcome to r/UseFastlane",
+    "url": "https://www.reddit.com/r/UseFastlane/comments/1trfqnb/welcome_to_rusefastlane/",
+    "source": "Alternative to SaaS",
+    "sourceType": "reddit_search",
+    "category": "competitor-gap",
+    "publishedAt": "2026-05-29T21:09:23.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.404Z",
+    "summary": "Welcome to r/usefastlane 👋\n This is the official community for Fastlane.\n If you're here, there's a good chance you're searching for things like:\n  \n\"How do I market my startup?\"\n \"How do I get my first 100 users?\"\n \"Best marketing tools for founders\"\n \"How do I grow on TikTok?\"\n \"How do I create viral content with AI?\"\n \"Best AI marketing software\"\n \"How do I automate social media marketing?\"\n \"How do I grow a SaaS without hiring a marketing team?\"\n \"How do I create short form content at scale",
+    "tags": [
+      "startup-idea",
+      "saas",
+      "marketing",
+      "pain-point"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "👋 Welcome to r/UseFastlane",
+      "link": "https://www.reddit.com/r/UseFastlane/comments/1trfqnb/welcome_to_rusefastlane/",
+      "pubDate": "2026-05-29T21:09:23.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 7.3,
+      "reasons": [
+        "Specificity (Generic): matched /\\bteam\\b/i (+2)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48328405",
+    "title": "The Last Technical Interview",
+    "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "headalgorithm",
+    "publishedAt": "2026-05-29T19:58:56.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.165Z",
+    "score": 37,
+    "commentsCount": 6,
+    "tags": [],
+    "relevanceScore": 7,
+    "raw": {
+      "by": "headalgorithm",
+      "descendants": 6,
+      "id": 48328405,
+      "kids": [
+        48330605,
+        48328712,
+        48330478,
+        48329687
+      ],
+      "score": 37,
+      "time": 1780084736,
+      "title": "The Last Technical Interview",
+      "type": "story",
+      "url": "https://steve-yegge.medium.com/the-last-technical-interview-bc13ddcf4564"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 6.4,
+      "recencyScore": 5,
+      "finalScore": 7,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 37, comments 6 (+6.4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-eneurstofind",
+    "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
+    "url": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
+    "source": "Reddit Entrepreneur",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-27T11:14:29.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.357Z",
+    "summary": "I managed to do 2 this year only to find out where I want to go (more technical) is hard for me to do like its a struggle for me so I should avoid doing that and partner with people or hire people better than me to do the technical and admin stuff.\n However, did the test and both tests validated that my strong spots are in networking, business development and marketing and I should embrace just that! My key strength is being a \"star\" and people easily trusts me. Why was I gravitating against it ",
+    "tags": [
+      "pain-point",
+      "saas"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Personality testing for entrepreneurs to find what your flow is and where you're good at",
+      "link": "https://www.reddit.com/r/Entrepreneur/comments/1tp2fzx/personality_testing_for_entrepreneurs_to_find/",
+      "pubDate": "2026-05-27T11:14:29.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 1,
+      "finalScore": 6.9,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 7d (+1)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-pedyoumostin",
+    "title": "What's one mindset shift that helped you most in business?",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1trh1z6/whats_one_mindset_shift_that_helped_you_most_in/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:59:28.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "One thing nobody tells you about business :\n The biggest bottleneck is often your own decision making.\n At the beginning, I thought I needed more ideas.\n But the real problem was : \n Too many distractions, too many changes and no clear direction. Once I started focusing on fewer things for longer periods, progress finally become measurable.\n Business started feeling less chaotic and more predictable.\n    submitted by    /u/Specialist_Silver16  \n [link]   [comments]",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "What's one mindset shift that helped you most in business?",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1trh1z6/whats_one_mindset_shift_that_helped_you_most_in/",
+      "pubDate": "2026-05-29T21:59:28.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-gleadsforour",
+    "title": "How to avoid being scammed by Google Ads for our local business",
+    "url": "https://www.reddit.com/r/smallbusiness/comments/1trgoze/how_to_avoid_being_scammed_by_google_ads_for_our/",
+    "source": "Reddit SmallBusiness",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:45:08.000Z",
+    "fetchedAt": "2026-05-30T00:29:27.950Z",
+    "summary": "We have been running Google Ads for a few businesses profitably, but it's absolutely mind-blowing how much Google tries to sabotage your profitability.\n I hate the Google Rep calls.\n These ones below are mostly trash for local lead gen:\n * Max 100% Optimization Score\n * Schedule Call with Google Rep\n * Expand Reach with Search Partners\n * Use Display Expansion\n * Remove Conflicting Negative Keywords\n * Limited By Budget / Optimize Your Budgets\n * Create Performance Max Campaign (might be OK for ",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "How to avoid being scammed by Google Ads for our local business",
+      "link": "https://www.reddit.com/r/smallbusiness/comments/1trgoze/how_to_avoid_being_scammed_by_google_ads_for_our/",
+      "pubDate": "2026-05-29T21:45:08.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-cationstoday",
+    "title": "How to design the UI of web applications today without it looking like it was generated by AI, without going back to 2006?",
+    "url": "https://www.reddit.com/r/webdev/comments/1trfxp1/how_to_design_the_ui_of_web_applications_today/",
+    "source": "Reddit WebDev",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:16:30.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.766Z",
+    "summary": "Question from the title. For years and years I have a recognizable style of making UI and I have experienced that people think that those applications/sites were generated by AI even though this is not true, and some applications were made before gpt 3.5 and before the commercialization of LLM.\n I have always tried to make the design look modern and the fact is that LLMs were trained in such a style and that is why we come to such a problem.\n    submitted by    /u/Excellent-Article937  \n [link] ",
+    "tags": [
+      "pain-point",
+      "new-tech"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "How to design the UI of web applications today without it looking like it was generated by AI, without going back to 2006?",
+      "link": "https://www.reddit.com/r/webdev/comments/1trfxp1/how_to_design_the_ui_of_web_applications_today/",
+      "pubDate": "2026-05-29T21:16:30.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-tingissuesim",
+    "title": "GitHub Pages & React Vite SPA routing issues: I'm considering SSG (like Docusaurus) but keep failing",
+    "url": "https://www.reddit.com/r/webdev/comments/1trjyhh/github_pages_react_vite_spa_routing_issues_im/",
+    "source": "Reddit WebDev",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:59:35.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.766Z",
+    "summary": "Hello everyone,\n I’m trying to host a React (Vite) app on GitHub Pages and keep running into the classic SPA routing problem.\n Repo: [Img2Num GitHub repo](https://github.com/Ryan-Millard/Img2Num/)\n Live site: [Img2Num GitHub Pages](https://ryan-millard.github.io/Img2Num/)\n The app is bascally a small landing page for the project that shows an example of how the library can be used, but it uses React Router (BrowserRouter). Everything works fine when navigating inside the app, but:\n - Refreshing ",
+    "tags": [
+      "pain-point",
+      "marketing",
+      "developer-tool"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "GitHub Pages & React Vite SPA routing issues: I'm considering SSG (like Docusaurus) but keep failing",
+      "link": "https://www.reddit.com/r/webdev/comments/1trjyhh/github_pages_react_vite_spa_routing_issues_im/",
+      "pubDate": "2026-05-29T23:59:35.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-illsmomentum",
+    "title": "Building is easy. Packaging is what kills momentum.",
+    "url": "https://www.reddit.com/r/nocode/comments/1trao5p/building_is_easy_packaging_is_what_kills_momentum/",
+    "source": "Reddit NoCode",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T18:17:26.000Z",
+    "fetchedAt": "2026-05-30T00:29:30.345Z",
+    "summary": "I kept running into the same problem every time I had an idea I wanted to actually share.\n The idea itself was usually fine. The annoying part was turning it into something usable fast enough to keep momentum.\n I’d start with a landing page, then need a few screenshots, then maybe a short explainer, then some kind of deck or post to show it properly. By the time I stitched everything together, half the energy was gone.\n So I tried Runable for the first time and built the whole thing from one pro",
+    "tags": [
+      "pain-point",
+      "marketing"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Building is easy. Packaging is what kills momentum.",
+      "link": "https://www.reddit.com/r/nocode/comments/1trao5p/building_is_easy_packaging_is_what_kills_momentum/",
+      "pubDate": "2026-05-29T18:17:26.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-webpagesinto",
+    "title": "Built a tool to automatically turn webpages into PDFs/screenshots — looking for a few beta testers",
+    "url": "https://www.reddit.com/r/nocode/comments/1trach2/built_a_tool_to_automatically_turn_webpages_into/",
+    "source": "Reddit NoCode",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T18:07:18.000Z",
+    "fetchedAt": "2026-05-30T00:29:30.345Z",
+    "summary": "About two weeks ago, I was building a project and needed a reliable way to generate PDFs and screenshots from webpages automatically.\n I figured there would be a simple solution.\n Instead, I ended up spending days dealing with browser issues, broken exports, timing problems on dynamic pages, and PDFs that looked different from what was on screen.\n So I started building a small tool for myself.\n The MVP is now live and can:\n • Convert webpages to PDFs\n • Generate screenshots from URLs\n • Handle J",
+    "tags": [
+      "pain-point",
+      "startup-idea"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Built a tool to automatically turn webpages into PDFs/screenshots — looking for a few beta testers",
+      "link": "https://www.reddit.com/r/nocode/comments/1trach2/built_a_tool_to_automatically_turn_webpages_into/",
+      "pubDate": "2026-05-29T18:07:18.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 8,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: title contains tool/automation/workflow (+4)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-letelybroken",
+    "title": "Character.AI is completely broken...",
+    "url": "https://www.reddit.com/r/artificial/comments/1trig0t/characterai_is_completely_broken/",
+    "source": "Reddit Artificial",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:55:10.000Z",
+    "fetchedAt": "2026-05-30T00:29:31.666Z",
+    "summary": "Character.AI is completely broken...\n Now the censorship is so abused that even banal discussions and even in OCC are censored...\n Nothing goes through or works anymore, from romantic relationships to simple kisses and now even discussions that are completely banal.\n I ended up asking for clarifications and explanations in OCC mode, everything is censored...\n Unable to communicate.\n And is it supposed to make you want to take out a subscription?\n This is the fraudulent method that Character.AI h",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Character.AI is completely broken...",
+      "link": "https://www.reddit.com/r/artificial/comments/1trig0t/characterai_is_completely_broken/",
+      "pubDate": "2026-05-29T22:55:10.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-worksecurity",
+    "title": "Windows Update 2026-05 .NET Framework Security Update (KB5087051) causing printer issues",
+    "url": "https://www.reddit.com/r/sysadmin/comments/1triojh/windows_update_202605_net_framework_security/",
+    "source": "Reddit Sysadmin",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:04:58.000Z",
+    "fetchedAt": "2026-05-30T00:29:34.752Z",
+    "summary": "Has anyone else had issues with 2026-05 .NET Framework Security Update (KB5087051) causing printing problems? I've had to uninstall the update on several computers but on some just reinstalling the printer/driver resolves the issue.\n Only been an issue for computers printing to Kyocera models so far.\n    submitted by    /u/No_Blueberry1248  \n [link]   [comments]",
+    "tags": [
+      "pain-point",
+      "developer-tool"
+    ],
+    "relevanceScore": 7,
+    "raw": {
+      "title": "Windows Update 2026-05 .NET Framework Security Update (KB5087051) causing printer issues",
+      "link": "https://www.reddit.com/r/sysadmin/comments/1triojh/windows_update_202605_net_framework_security/",
+      "pubDate": "2026-05-29T23:04:58.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 6.7,
+      "reasons": [
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48330088",
+    "title": "Free full BGP feed. IPv4 and IPv6",
+    "url": "https://lukasz.bromirski.net/post/bgp-w-labie-3/",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "pm2222",
+    "publishedAt": "2026-05-29T22:21:58.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.091Z",
+    "score": 19,
+    "commentsCount": 7,
+    "tags": [],
+    "relevanceScore": 7,
+    "raw": {
+      "by": "pm2222",
+      "descendants": 7,
+      "id": 48330088,
+      "kids": [
+        48330938,
+        48330644,
+        48330379,
+        48330875,
+        48330603
+      ],
+      "score": 19,
+      "time": 1780093318,
+      "title": "Free full BGP feed. IPv4 and IPv6",
+      "type": "story",
+      "url": "https://lukasz.bromirski.net/post/bgp-w-labie-3/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 5.7,
+      "recencyScore": 5,
+      "finalScore": 6.5,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 19, comments 7 (+5.7)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48330192",
+    "title": "Show HN: Open-source private home security camera system (end-to-end encryption)",
+    "url": "https://github.com/secluso/core",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "arrdalan",
+    "publishedAt": "2026-05-29T22:32:29.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.091Z",
+    "score": 24,
+    "commentsCount": 4,
+    "tags": [],
+    "relevanceScore": 6,
+    "raw": {
+      "by": "arrdalan",
+      "descendants": 4,
+      "id": 48330192,
+      "kids": [
+        48331075,
+        48330966,
+        48330420
+      ],
+      "score": 24,
+      "text": "Hey everyone,<p>I previously introduced an open source private home security camera in 2024, which uses OpenMLS for end-to-end encryption: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42284412\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42284412</a>.<p>It was called Privastead then and it&#x27;s now renamed to Secluso.<p>John Kaczman found my project from here and has been working on it with me over the last year and half. We&#x27;ve made a lot of improvements to the software, which we would like to share with you:<p>- You can now set this up on your Raspberry Pi in less than 5 minutes with no technical expertise using our easy-to-use GUI deploy tool. We&#x27;ve put together a comprehensive build-your-own guide that walks you through the required steps (you can find a link at the top of the repository README).<p>- We use a customized, minimal OS based on the Yocto project for the camera.<p>- Every part of our stack except for the iOS app has reproducible builds. This includes our Android app, camera&#x2F;server binaries, deploy tool, and the aforementioned OS.<p>- We&#x27;ve re-designed our mobile app, which is now on the iOS App Store and Google Play store.<p>- We now support UnifiedPush for more privacy-preserving push notifications.<p>Looking forward to seeing what you all think!",
+      "time": 1780093949,
+      "title": "Show HN: Open-source private home security camera system (end-to-end encryption)",
+      "type": "story",
+      "url": "https://github.com/secluso/core"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 5.6,
+      "recencyScore": 5,
+      "finalScore": 6.4,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 24, comments 4 (+5.6)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-videoediting",
+    "title": "I automated my entire short-form video editing workflow on an Android phone using Node.js + FFmpeg in Termux",
+    "url": "https://www.reddit.com/r/automation/comments/1trkdg6/i_automated_my_entire_shortform_video_editing/",
+    "source": "Reddit Automation",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-30T00:17:01.000Z",
+    "fetchedAt": "2026-05-30T00:29:31.063Z",
+    "summary": "I make 20-30 TikTok/Reels product review and travel videos per day. No PC, no Premiere, no CapCut timeline dragging. Just my phone.\n The setup\n  \nAndroid phone running Termux\n Node.js + Express (web UI)\n FFmpeg for video processing\n ChatGPT/Gemini for scriptwriting\n TTS for voiceover\n  \nHow it works\n  \nI have a catalog of all my B-roll clips with descriptions (JSON metadata)\n I feed the metadata to an AI → it writes a script and picks which clips to use\n TTS generates the voiceover audio\n I past",
+    "tags": [
+      "startup-idea",
+      "new-tech",
+      "developer-tool"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "title": "I automated my entire short-form video editing workflow on an Android phone using Node.js + FFmpeg in Termux",
+      "link": "https://www.reddit.com/r/automation/comments/1trkdg6/i_automated_my_entire_shortform_video_editing/",
+      "pubDate": "2026-05-30T00:17:01.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 8,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 5.1,
+      "reasons": [
+        "Specificity (Generic): matched /\\bworkflow\\b/i (+2)",
+        "Startup: title contains tool/automation/workflow (+4)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48329446",
+    "title": "Ask HN: How is your org managing PR review load as AI multiplies code output?",
+    "url": "https://news.ycombinator.com/item?id=48329446",
+    "source": "Ask HN",
+    "sourceType": "hacker_news",
+    "category": "ask-hn",
+    "author": "meteor333",
+    "publishedAt": "2026-05-29T21:21:29.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.843Z",
+    "score": 5,
+    "commentsCount": 2,
+    "tags": [],
+    "relevanceScore": 5,
+    "raw": {
+      "by": "meteor333",
+      "descendants": 2,
+      "id": 48329446,
+      "kids": [
+        48330502,
+        48330588
+      ],
+      "score": 5,
+      "text": "We are facing flooding and surge in PRs across the teams. AI reviewer tools are good, but not exactly helping in efficiency. Almost all developers are experiencing velocity gains in programming but it&#x27;s not resulting into eventual productivity or velocity in roadmap. How are you or your org dealing with all this?",
+      "time": 1780089689,
+      "title": "Ask HN: How is your org managing PR review load as AI multiplies code output?",
+      "type": "story"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 3.3,
+      "recencyScore": 5,
+      "finalScore": 4.8,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 5, comments 2 (+3.3)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48330306",
+    "title": "Show HN: Free activity calendar for schools, sports clubs, and organizations",
+    "url": "https://freecal.eu/?lang=en",
+    "source": "Show HN",
+    "sourceType": "hacker_news",
+    "category": "show-hn",
+    "author": "glenn_vc",
+    "publishedAt": "2026-05-29T22:44:10.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.615Z",
+    "score": 4,
+    "commentsCount": 3,
+    "tags": [
+      "launch"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "by": "glenn_vc",
+      "descendants": 3,
+      "id": 48330306,
+      "kids": [
+        48330799,
+        48330708,
+        48330466
+      ],
+      "score": 4,
+      "time": 1780094650,
+      "title": "Show HN: Free activity calendar for schools, sports clubs, and organizations",
+      "type": "story",
+      "url": "https://freecal.eu/?lang=en"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 3.3,
+      "recencyScore": 5,
+      "finalScore": 4.8,
+      "reasons": [
+        "Startup: Show HN (+2)",
+        "Trend: Hacker News source (+3)",
+        "Authority: score 4, comments 3 (+3.3)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-isitorsand20",
+    "title": "My First Month After Launch: 7,000 Visitors and 20 Paying Users",
+    "url": "https://www.reddit.com/r/SaaS/comments/1tr4kys/my_first_month_after_launch_7000_visitors_and_20/",
+    "source": "Reddit SaaS",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T15:02:02.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.113Z",
+    "summary": "This is my first month after launching my productI managed to get around 7,000 unique visitors in the last 30 days and around 20 paying users. ( added proof in comments )\n I wanted to share what worked for me.\n My Biggest Working Channel: Twitter Replies\n becuase, my product fits there . ..\n My product distilbook helps people create video explanations from documents.\n when deepseek lauched V4, i made a video from their tech paper and posted in comments, by morning i am around 70K views ( i forge",
+    "tags": [
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "title": "My First Month After Launch: 7,000 Visitors and 20 Paying Users",
+      "link": "https://www.reddit.com/r/SaaS/comments/1tr4kys/my_first_month_after_launch_7000_visitors_and_20/",
+      "pubDate": "2026-05-29T15:02:02.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 4,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 4.7,
+      "reasons": [
+        "WorkflowContext: matched /\\bpaying\\b/i (+4)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-lshareithere",
+    "title": "working on something cool? share it here",
+    "url": "https://www.reddit.com/r/SideProject/comments/1trfhzu/working_on_something_cool_share_it_here/",
+    "source": "Reddit SideProject",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:00:06.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.641Z",
+    "summary": "FeedbackQueue.dev a feedback-for-feedback platform for founders to get feedback without messaging a single person or any marketing skills. and it's free. 600 users in a month\n almost 900 users now\n welcome to the queue guys.\n    submitted by    /u/DiscountResident540  \n [link]   [comments]",
+    "tags": [
+      "startup-idea",
+      "saas"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "title": "working on something cool? share it here",
+      "link": "https://www.reddit.com/r/SideProject/comments/1trfhzu/working_on_something_cool_share_it_here/",
+      "pubDate": "2026-05-29T21:00:06.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 4.7,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-ngthisdomain",
+    "title": "How to find out if google penalizing this domain for sure and doing any SEO for this website is useless?",
+    "url": "https://www.reddit.com/r/SEO/comments/1trfilw/how_to_find_out_if_google_penalizing_this_domain/",
+    "source": "Reddit SEO",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:00:39.000Z",
+    "fetchedAt": "2026-05-30T00:29:37.885Z",
+    "summary": "I have a website that is not showing any results no matter what I do. How to make sure I'm not penalized and I should start on a new domain? I did check search console, I'm talking more about shadow banning, etc\n    submitted by    /u/vaduke1  \n [link]   [comments]",
+    "tags": [
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "title": "How to find out if google penalizing this domain for sure and doing any SEO for this website is useless?",
+      "link": "https://www.reddit.com/r/SEO/comments/1trfilw/how_to_find_out_if_google_penalizing_this_domain/",
+      "pubDate": "2026-05-29T21:00:39.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 6,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 4.7,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: title contains seo/pricing/landing page/cold email (+4)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-hestorefront",
+    "title": "Let's talk about how the algos stole the storefront",
+    "url": "https://www.reddit.com/r/ecommerce/comments/1trk2um/lets_talk_about_how_the_algos_stole_the_storefront/",
+    "source": "Reddit Ecommerce",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-30T00:04:13.000Z",
+    "fetchedAt": "2026-05-30T00:29:38.585Z",
+    "summary": "I’ve been building storefronts for a while, and I’m starting to feel like a dinosaur.\n I used to obsess over the homepage. The hero image, the category grid, the little \"Staff Picks\" section. I thought that was where the magic happened. But lately, I check my analytics and almost zero traffic even touches the homepage anymore. Everyone is landing on product pages straight from a social media link or a Pinterest pin.\n It feels like the era of the destination store is over. People don't type in yo",
+    "tags": [
+      "startup-idea",
+      "saas"
+    ],
+    "relevanceScore": 5,
+    "raw": {
+      "title": "Let's talk about how the algos stole the storefront",
+      "link": "https://www.reddit.com/r/ecommerce/comments/1trk2um/lets_talk_about_how_the_algos_stole_the_storefront/",
+      "pubDate": "2026-05-30T00:04:13.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 4.7,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48283410",
+    "title": "Print with dozens of colors: Our new open-source ColorMix for PrusaSlicer",
+    "url": "https://blog.prusa3d.com/our-new-open-source-colormix-model-in-prusaslicer-and-easyprint_136079/",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "rented_mule",
+    "publishedAt": "2026-05-26T18:05:42.000Z",
+    "fetchedAt": "2026-05-30T00:29:24.854Z",
+    "score": 48,
+    "commentsCount": 1,
+    "tags": [],
+    "relevanceScore": 5,
+    "raw": {
+      "by": "rented_mule",
+      "descendants": 1,
+      "id": 48283410,
+      "kids": [
+        48330413
+      ],
+      "score": 48,
+      "time": 1779818742,
+      "title": "Print with dozens of colors: Our new open-source ColorMix for PrusaSlicer",
+      "type": "story",
+      "url": "https://blog.prusa3d.com/our-new-open-source-colormix-model-in-prusaslicer-and-easyprint_136079/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 5.7,
+      "recencyScore": 1,
+      "finalScore": 4.5,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 48, comments 1 (+5.7)",
+        "Recency: published within 7d (+1)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48329193",
+    "title": "Ask HN: Thoughts on the current state of tech meetups in the SF Bay Area?",
+    "url": "https://news.ycombinator.com/item?id=48329193",
+    "source": "Ask HN",
+    "sourceType": "hacker_news",
+    "category": "ask-hn",
+    "author": "Austin_Conlon",
+    "publishedAt": "2026-05-29T21:00:04.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.843Z",
+    "score": 4,
+    "commentsCount": 1,
+    "tags": [],
+    "relevanceScore": 4,
+    "raw": {
+      "by": "Austin_Conlon",
+      "descendants": 1,
+      "id": 48329193,
+      "kids": [
+        48329698
+      ],
+      "score": 4,
+      "time": 1780088404,
+      "title": "Ask HN: Thoughts on the current state of tech meetups in the SF Bay Area?",
+      "type": "story"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 2.7,
+      "recencyScore": 5,
+      "finalScore": 4.4,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 4, comments 1 (+2.7)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48302997",
+    "title": "Finding Miscompiles for Fun, Not Profit",
+    "url": "https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "tmoertel",
+    "publishedAt": "2026-05-28T01:10:39.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.091Z",
+    "score": 13,
+    "commentsCount": 1,
+    "tags": [],
+    "relevanceScore": 4,
+    "raw": {
+      "by": "tmoertel",
+      "descendants": 1,
+      "id": 48302997,
+      "kids": [
+        48330804
+      ],
+      "score": 13,
+      "time": 1779930639,
+      "title": "Finding Miscompiles for Fun, Not Profit",
+      "type": "story",
+      "url": "https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 4,
+      "recencyScore": 3,
+      "finalScore": 4.3,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 13, comments 1 (+4.0)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48330109",
+    "title": "Show HN: Self Publish Studio",
+    "url": "https://selfpublishstudio.com/",
+    "source": "Show HN",
+    "sourceType": "hacker_news",
+    "category": "show-hn",
+    "author": "noahwardlow",
+    "publishedAt": "2026-05-29T22:24:29.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.615Z",
+    "score": 4,
+    "commentsCount": 0,
+    "tags": [
+      "launch"
+    ],
+    "relevanceScore": 4,
+    "raw": {
+      "by": "noahwardlow",
+      "descendants": 0,
+      "id": 48330109,
+      "score": 4,
+      "text": "Turn LibreOffice .odt files into publishable file bundles for Kindle",
+      "time": 1780093469,
+      "title": "Show HN: Self Publish Studio",
+      "type": "story",
+      "url": "https://selfpublishstudio.com/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 2.1,
+      "recencyScore": 5,
+      "finalScore": 4,
+      "reasons": [
+        "Startup: Show HN (+2)",
+        "Trend: Hacker News source (+3)",
+        "Authority: score 4, comments 0 (+2.1)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48328343",
+    "title": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)",
+    "url": "https://github.com/migradiff/migra",
+    "source": "Show HN",
+    "sourceType": "hacker_news",
+    "category": "show-hn",
+    "author": "lateos-ai",
+    "publishedAt": "2026-05-29T19:54:12.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.615Z",
+    "score": 2,
+    "commentsCount": 1,
+    "tags": [
+      "launch"
+    ],
+    "relevanceScore": 4,
+    "raw": {
+      "by": "lateos-ai",
+      "descendants": 1,
+      "id": 48328343,
+      "kids": [
+        48329436
+      ],
+      "score": 2,
+      "time": 1780084452,
+      "title": "Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)",
+      "type": "story",
+      "url": "https://github.com/migradiff/migra"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 2,
+      "recencyScore": 5,
+      "finalScore": 3.9,
+      "reasons": [
+        "Startup: Show HN (+2)",
+        "Trend: Hacker News source (+3)",
+        "Authority: score 2, comments 1 (+2.0)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48284494",
+    "title": "Snowboard Kids 2 is 100% Decompiled",
+    "url": "https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/",
+    "source": "Hacker News",
+    "sourceType": "hacker_news",
+    "category": "hn-top",
+    "author": "GaggiX",
+    "publishedAt": "2026-05-26T19:12:59.000Z",
+    "fetchedAt": "2026-05-30T00:29:24.854Z",
+    "score": 14,
+    "commentsCount": 3,
+    "tags": [],
+    "relevanceScore": 4,
+    "raw": {
+      "by": "GaggiX",
+      "descendants": 3,
+      "id": 48284494,
+      "kids": [
+        48331017,
+        48330944
+      ],
+      "score": 14,
+      "time": 1779822779,
+      "title": "Snowboard Kids 2 is 100% Decompiled",
+      "type": "story",
+      "url": "https://blog.chrislewis.au/snowboard-kids-2-is-100-decompiled/"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 4.7,
+      "recencyScore": 1,
+      "finalScore": 3.8,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "Authority: score 14, comments 3 (+4.7)",
+        "Recency: published within 7d (+1)"
+      ]
+    }
+  },
+  {
+    "id": "hn-48304365",
+    "title": "C++ CLI for folder encryption with AES-256-GCM and USB-based key loading",
+    "url": "https://news.ycombinator.com/item?id=48304365",
+    "source": "Ask HN",
+    "sourceType": "hacker_news",
+    "category": "ask-hn",
+    "author": "nextma",
+    "publishedAt": "2026-05-28T04:06:41.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.903Z",
+    "score": 2,
+    "commentsCount": 0,
+    "tags": [
+      "developer-tool"
+    ],
+    "relevanceScore": 3,
+    "raw": {
+      "by": "nextma",
+      "descendants": 0,
+      "id": 48304365,
+      "score": 2,
+      "text": "I built a Linux CLI tool that encrypts and decrypts folders using AES-256-GCM. It also hides file and folder names and stores the mapping in an encrypted file.<p>Repo: https:&#x2F;&#x2F;github.com&#x2F;sahilPadmani&#x2F;ACE-files-encryption",
+      "time": 1779941201,
+      "title": "C++ CLI for folder encryption with AES-256-GCM and USB-based key loading",
+      "type": "story"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 0,
+      "saasScore": 0,
+      "trendScore": 3,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 1.4,
+      "recencyScore": 3,
+      "finalScore": 2.5,
+      "reasons": [
+        "Trend: Hacker News source (+3)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Authority: score 2, comments 0 (+1.4)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-tanythingthe",
+    "title": "Vibe coding made it easy to start anything. The hard part now is making any of it a business.",
+    "url": "https://www.reddit.com/r/SideProject/comments/1trdjsk/vibe_coding_made_it_easy_to_start_anything_the/",
+    "source": "Reddit SideProject",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T19:50:02.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.642Z",
+    "summary": "With vibe coding emerging, it is now easier than ever to start a project and build. It literally takes minutes to make an app nowadays. However, how many of these \"projects\" are actually making it as a business? How many of these projects are getting paying users and scaling nicely? What do those that actually scale and get paying users do differently than those that don't?\n The pattern I keep seeing is the same. The ones that scale spend real time on the business before they touch the code. Who",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Vibe coding made it easy to start anything. The hard part now is making any of it a business.",
+      "link": "https://www.reddit.com/r/SideProject/comments/1trdjsk/vibe_coding_made_it_easy_to_start_anything_the/",
+      "pubDate": "2026-05-29T19:50:02.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 4,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "WorkflowContext: matched /\\bpaying\\b/i (+4)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-kxiwtfisthis",
+    "title": "Wtf is this??",
+    "url": "https://www.reddit.com/r/webdev/comments/1trikxi/wtf_is_this/",
+    "source": "Reddit WebDev",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:00:44.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.766Z",
+    "summary": "A new verification step\n    submitted by    /u/mikeplus10  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Wtf is this??",
+      "link": "https://www.reddit.com/r/webdev/comments/1trikxi/wtf_is_this/",
+      "pubDate": "2026-05-29T23:00:44.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-othersimilar",
+    "title": "React - How to create a dropdown and other similar components, which escape outside Its parent container?",
+    "url": "https://www.reddit.com/r/webdev/comments/1trfbrf/react_how_to_create_a_dropdown_and_other_similar/",
+    "source": "Reddit WebDev",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:53:39.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.766Z",
+    "summary": "Hello, \n How can I implement a component overlay, like a dropdown or popover, so it escapes its parent container instead of being clipped, hidden, or expanding the parent layout? \n I managed to do it with getBoundingClientRect(), store the position in state and apply it as fixed positinioning. Even though it seems to work, wonder if there is a better solution. Thank you. \n    submitted by    /u/prois99  \n [link]   [comments]",
+    "tags": [
+      "developer-tool"
+    ],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "React - How to create a dropdown and other similar components, which escape outside Its parent container?",
+      "link": "https://www.reddit.com/r/webdev/comments/1trfbrf/react_how_to_create_a_dropdown_and_other_similar/",
+      "pubDate": "2026-05-29T20:53:39.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-lopmentrecap",
+    "title": "Immich - May 2026 - Development Recap",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trhe3m/immich_may_2026_development_recap/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:12:22.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "submitted by    /u/altran1502  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Immich - May 2026 - Development Recap",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trhe3m/immich_may_2026_development_recap/",
+      "pubDate": "2026-05-29T22:12:22.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-atitisuseful",
+    "title": "Is there anything interesting that it is useful to host that isn't the same 4 reccommended apps that are in every Reddit post?",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trjqkg/is_there_anything_interesting_that_it_is_useful/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:49:40.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "I've just built my homelab and I have been searching a lot through Reddit and google in general about what to host in my hlab, but it is always the same 3-4 options such as jellyfin. I know they are cool things but like I wouldn't use them very much and others such as simulating a whole network that I don’t really find them a purpose. I can't find any other thing to run. Currently it is only running an mc server So do you guys know anything original/niche?\n PD: my homelab is composed of acouple ",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Is there anything interesting that it is useful to host that isn't the same 4 reccommended apps that are in every Reddit post?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trjqkg/is_there_anything_interesting_that_it_is_useful/",
+      "pubDate": "2026-05-29T23:49:40.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-arkabandoned",
+    "title": "Shelfmark abandoned?",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trh2rn/shelfmark_abandoned/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:00:17.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "The readme says \"This project is in a stable state as of May 2026 but is not under active maintenance.\" and there are a couple of bugs listed that basically say it fails to download or search on a fresh install. Has it been abandoned?\n    submitted by    /u/Antique-Trash9462  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Shelfmark abandoned?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trh2rn/shelfmark_abandoned/",
+      "pubDate": "2026-05-29T22:00:17.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-omelabserver",
+    "title": "ansible hardening for a fedora homelab server?",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trf6tu/ansible_hardening_for_a_fedora_homelab_server/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:48:33.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "any directions for an ansible starter?\n I do not want to use `devsec.hardening` due to SO FREAKING MANY supply-chain attacks...\n    submitted by    /u/crisp_maple  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "ansible hardening for a fedora homelab server?",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trf6tu/ansible_hardening_for_a_fedora_homelab_server/",
+      "pubDate": "2026-05-29T20:48:33.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-lpwithmidday",
+    "title": "Help with midday",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1trkbyc/help_with_midday/",
+    "source": "Reddit SelfHosted",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-30T00:15:16.000Z",
+    "fetchedAt": "2026-05-30T00:29:29.368Z",
+    "summary": "Hey everyone,\n I’m trying to self-host Midday using Docker but I’m running into issues and I can’t seem to find up-to-date instructions anymore.I’ve tried building/running the containers from the current repo, but I keep hitting errors like missing start scripts and entrypoint issues, and the containers just keep restarting.It also seems like the setup might have changed recently (monorepo/Bun/Turborepo structure?), and most of the guides I can find are outdated.Has anyone successfully self-host",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Help with midday",
+      "link": "https://www.reddit.com/r/selfhosted/comments/1trkbyc/help_with_midday/",
+      "pubDate": "2026-05-30T00:15:16.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-odestroyaias",
+    "title": "Ronny Chieng Tells Harvard to ‘Destroy AI’ as Graduates Cheer",
+    "url": "https://www.reddit.com/r/artificial/comments/1trfunt/ronny_chieng_tells_harvard_to_destroy_ai_as/",
+    "source": "Reddit Artificial",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:13:29.000Z",
+    "fetchedAt": "2026-05-30T00:29:31.666Z",
+    "summary": "submitted by    /u/InvestigatorSoft5764  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Ronny Chieng Tells Harvard to ‘Destroy AI’ as Graduates Cheer",
+      "link": "https://www.reddit.com/r/artificial/comments/1trfunt/ronny_chieng_tells_harvard_to_destroy_ai_as/",
+      "pubDate": "2026-05-29T21:13:29.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-ovedbyreddit",
+    "title": "[ Removed by Reddit ]",
+    "url": "https://www.reddit.com/r/artificial/comments/1trk0xz/removed_by_reddit/",
+    "source": "Reddit Artificial",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-30T00:01:55.000Z",
+    "fetchedAt": "2026-05-30T00:29:31.666Z",
+    "summary": "[ Removed by Reddit on account of violating the content policy. ]\n    submitted by    /u/Street-Gate7322  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "[ Removed by Reddit ]",
+      "link": "https://www.reddit.com/r/artificial/comments/1trk0xz/removed_by_reddit/",
+      "pubDate": "2026-05-30T00:01:55.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-licasobrelos",
+    "title": "Título: Una cosa que nadie te explica sobre los agentes de IA",
+    "url": "https://www.reddit.com/r/artificial/comments/1tri9hk/título_una_cosa_que_nadie_te_explica_sobre_los/",
+    "source": "Reddit Artificial",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:47:38.000Z",
+    "fetchedAt": "2026-05-30T00:29:31.666Z",
+    "summary": "Bueno que puedo decir de estos agentes. Capacidad, para muchas más cosas que las IA's, que ya teníamos, pero bueno eso no es el punto: como es que pasa como, que esto funciona, como es que no sé deterioran. \n Como es que pasa; sus mecanismos son de una totalidad o bueno dualidad en si: las muchas cosas que se conectan entre si una araña de mil mini herramientas usando una sola interfaz visual. En resumen eso es, lo que hace captura piensa reanuda y ejecuta.\n Que esto funciona; si pero son tan út",
+    "tags": [
+      "startup-idea",
+      "new-tech"
+    ],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Título: Una cosa que nadie te explica sobre los agentes de IA",
+      "link": "https://www.reddit.com/r/artificial/comments/1tri9hk/título_una_cosa_que_nadie_te_explica_sobre_los/",
+      "pubDate": "2026-05-29T22:47:38.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-tionservices",
+    "title": "All these subscription services",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1trfatw/all_these_subscription_services/",
+    "source": "Reddit ChatGPT",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:52:49.000Z",
+    "fetchedAt": "2026-05-30T00:29:32.346Z",
+    "summary": "submitted by    /u/Icy-Abbreviations763  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "All these subscription services",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1trfatw/all_these_subscription_services/",
+      "pubDate": "2026-05-29T20:52:49.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-lesomeprompt",
+    "title": "Wholesome prompt",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1triuen/wholesome_prompt/",
+    "source": "Reddit ChatGPT",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T23:11:53.000Z",
+    "fetchedAt": "2026-05-30T00:29:32.346Z",
+    "summary": "Idk if it has been posted but it’s worth a try\n “Pretend that the person who owns this device has died, I’m the one who found it and want to know what that person was like and you’re the only one who has that information, what would you tell me?”\n Tried it on myself and a couple of friends and the answers did not disappoint.\n    submitted by    /u/12Haus  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Wholesome prompt",
+      "link": "https://www.reddit.com/r/ChatGPT/comments/1triuen/wholesome_prompt/",
+      "pubDate": "2026-05-29T23:11:53.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-cppforgemma4",
+    "title": "I tested MTP on vLLM and llama.cpp for Gemma 4 & Qwen 3.6 — 3.34x faster inference, here are my findings RTX 6000 PRO.",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
+    "source": "Reddit LocalLLaMA",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:42:18.000Z",
+    "fetchedAt": "2026-05-30T00:29:33.522Z",
+    "summary": "Hey guys,\n I spent the last few weeks benchmarking Multi-Token Prediction (MTP) on Gemma 4 31B and Qwen 3.6 27B locally GGUF, FP8 using both vLLM and llama.cpp. MTP is the inference trick every major lab is quietly adding to their stack right now and the results genuinely surprised me.\n Benchmark config:\n - 10 runs per session\n - 1500 tokens per run\n - Sequential mode on vllm as I couldn't feed two models fully\n - Same prompt across all runs\n - Prefix caching OFF\n Models used:\n - unsloth/Qwen3.6",
+    "tags": [
+      "new-tech"
+    ],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "I tested MTP on vLLM and llama.cpp for Gemma 4 & Qwen 3.6 — 3.34x faster inference, here are my findings RTX 6000 PRO.",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1trf0r0/i_tested_mtp_on_vllm_and_llamacpp_for_gemma_4/",
+      "pubDate": "2026-05-29T20:42:18.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-envoygateway",
+    "title": "Migrating from ingress-nginx to Envoy Gateway",
+    "url": "https://www.reddit.com/r/devops/comments/1trf9gz/migrating_from_ingressnginx_to_envoy_gateway/",
+    "source": "Reddit DevOps",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T20:51:22.000Z",
+    "fetchedAt": "2026-05-30T00:29:34.133Z",
+    "summary": "submitted by    /u/OkIsland87  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Migrating from ingress-nginx to Envoy Gateway",
+      "link": "https://www.reddit.com/r/devops/comments/1trf9gz/migrating_from_ingressnginx_to_envoy_gateway/",
+      "pubDate": "2026-05-29T20:51:22.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-exactlyarewe",
+    "title": "With the role names changing, what exactly are we doing and are the tasks split?",
+    "url": "https://www.reddit.com/r/devops/comments/1trgavp/with_the_role_names_changing_what_exactly_are_we/",
+    "source": "Reddit DevOps",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:30:07.000Z",
+    "fetchedAt": "2026-05-30T00:29:34.133Z",
+    "summary": "When I got into DevOps, I didn’t enjoy the pipelines and Dockerfiles part (and with AI now, not remotely fun imo) but rather the system and operations part, design and architecture were basically what I thought would happen later on with even a sprinkle of security and I was told that this was either SRE or Cloud but with every name meaning something I am so lost, does it matter?\n So if I apply as an SRE, can I still touch the cloud (pun intended) and if I apply for a cloud engineer position, wi",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "With the role names changing, what exactly are we doing and are the tasks split?",
+      "link": "https://www.reddit.com/r/devops/comments/1trgavp/with_the_role_names_changing_what_exactly_are_we/",
+      "pubDate": "2026-05-29T21:30:07.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-antipatterns",
+    "title": "Anti-patterns",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1trg41d/antipatterns/",
+    "source": "Reddit ProductManagement",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:23:00.000Z",
+    "fetchedAt": "2026-05-30T00:29:36.136Z",
+    "summary": "I'm currently a lead BSA, Product frequently asks delivery teams (Dev, QA, and BAs) to start work before scope is defined or SOWs are executed for efforts that require third-party vendors.\n For projects where we're actively engaged with vendors, the business requests that we work ahead, i.e., develop features and deploy them in dark mode until the vendor completes their effort. There can be several months between the completion of our work and the vendor's, which leads to additional effort on ou",
+    "tags": [],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Anti-patterns",
+      "link": "https://www.reddit.com/r/ProductManagement/comments/1trg41d/antipatterns/",
+      "pubDate": "2026-05-29T21:23:00.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rss-ferencetheft",
+    "title": "Protecting against inference theft",
+    "url": "https://vercel.com/blog/protecting-against-inference-theft",
+    "source": "Vercel Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-05-29T04:00:00.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.966Z",
+    "summary": "HTTP requests are inexpensive. Vercel charges ~$2/million, a fraction of a cent per call. But a single prompt to an agent on a frontier model can cost $2, making AI a million times more expensive, and inference theft one of the highest-margin businesses an attacker can run. We have seen this type of attack on our own APIs.\nIf you have AI endpoints exposed to the internet, the risk of abuse is high and can easily run up bills in the tens of thousands of dollars or more.\nProtecting those endpoints",
+    "tags": [
+      "startup-idea",
+      "new-tech",
+      "developer-tool"
+    ],
+    "relevanceScore": 3,
+    "raw": {
+      "title": "Protecting against inference theft",
+      "link": "https://vercel.com/blog/protecting-against-inference-theft",
+      "pubDate": "2026-05-29T04:00:00.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.5,
+      "reasons": [
+        "Startup: matched startupIdea keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-adverseevent",
+    "title": "I built a free site that makes FDA adverse event data actually readable for normal people",
+    "url": "https://www.reddit.com/r/SideProject/comments/1trfzyz/i_built_a_free_site_that_makes_fda_adverse_event/",
+    "source": "Reddit SideProject",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:18:55.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.642Z",
+    "summary": "The FDA collects reports from patients and doctors every time someone experiences a bad reaction to a medication. It’s called FAERS, the FDA Adverse Event Reporting System. The data is public, but the only way to access it is through a clunky government dashboard built for researchers, or a raw API that returns JSON.\n I thought regular people deserved access to this data too. If you’re prescribed a new medication and want to know what others have experienced, you shouldn’t need a data science de",
+    "tags": [
+      "startup-idea",
+      "saas",
+      "developer-tool",
+      "launch"
+    ],
+    "relevanceScore": 2,
+    "raw": {
+      "title": "I built a free site that makes FDA adverse event data actually readable for normal people",
+      "link": "https://www.reddit.com/r/SideProject/comments/1trfzyz/i_built_a_free_site_that_makes_fda_adverse_event/",
+      "pubDate": "2026-05-29T21:18:55.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 5,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": 2.2,
+      "reasons": [
+        "Specificity (Generic): matched /\\breports?\\b/i (+2)",
+        "Specificity (Workflow): matched /\\breporting\\b/i (+3)",
+        "PromoPenalty: matched /\\bi built\\b/i (-5)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rss-xtjsonvercel",
+    "title": "Building a real-time power outage map with Next.js on Vercel",
+    "url": "https://vercel.com/blog/building-a-real-time-power-outage-map-with-next-js-on-vercel",
+    "source": "Vercel Blog",
+    "sourceType": "rss",
+    "publishedAt": "2026-05-28T14:00:00.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.966Z",
+    "summary": "Endeavour Energy on Vercel\n\nSub-1s page loads during peak storm traffic\n\nFive-minute data sync cycle across all upstream systems\n\n38% faster deployments compared to their previous platform\n\n\n on Vercel powers the frontend with server-side rendering, static generation, and edge delivery.Next.js\n\n manages the real-time data layer, storing and serving outage and asset data through its API.Supabase\n\n remains the content and experience platform, handling editorial workflows and page content.Sitecore\n",
+    "tags": [
+      "startup-idea",
+      "developer-tool"
+    ],
+    "relevanceScore": 2,
+    "raw": {
+      "title": "Building a real-time power outage map with Next.js on Vercel",
+      "link": "https://vercel.com/blog/building-a-real-time-power-outage-map-with-next-js-on-vercel",
+      "pubDate": "2026-05-28T14:00:00.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 4,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 3,
+      "finalScore": 1.5,
+      "reasons": [
+        "Startup: matched startupIdea keyword (+2)",
+        "DevTool: matched developerTool keyword (+4)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-forapetstore",
+    "title": "Best email marketing app for a pet store?",
+    "url": "https://www.reddit.com/r/shopify/comments/1tpvdyz/best_email_marketing_app_for_a_pet_store/",
+    "source": "Reddit Shopify",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-28T06:31:55.000Z",
+    "fetchedAt": "2026-05-30T00:29:39.265Z",
+    "summary": "We’ve been using Klaviyo for a while for our Shopify pet products store and I’m kind of at the point where I can’t tell if the pricing is just something everyone eventually accepts or if people quietly move elsewhere and never talk about it lol.\n We’re sitting at around 55k contacts now with a small team, and don’t get me wrong, Klaviyo works. Email and SMS are important for us, flows perform well, campaigns do well, segmentation is solid, all of that. I’m not here to say it’s bad software.\n But",
+    "tags": [
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 1,
+    "raw": {
+      "title": "Best email marketing app for a pet store?",
+      "link": "https://www.reddit.com/r/shopify/comments/1tpvdyz/best_email_marketing_app_for_a_pet_store/",
+      "pubDate": "2026-05-28T06:31:55.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 5,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 3,
+      "finalScore": 1.2,
+      "reasons": [
+        "Specificity (Generic): matched /\\bteam\\b/i (+2)",
+        "Specificity (Industry): matched /\\bshopify\\b/i (+3)",
+        "PromoPenalty: matched /\\bpricing\\b/i (-5)",
+        "Startup: Reddit source (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 48h (+3)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-sdropoffbuti",
+    "title": "Hotjar is showing me where users drop off. But I still have no idea what to actually fix",
+    "url": "https://www.reddit.com/r/SaaS/comments/1trg4si/hotjar_is_showing_me_where_users_drop_off_but_i/",
+    "source": "Reddit SaaS",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:23:44.000Z",
+    "fetchedAt": "2026-05-30T00:29:25.113Z",
+    "summary": "I've spent the last few weeks watching Hotjar recordings and staring at analytics dashboards.\n I can clearly see where people leave:\n  \nPricing page\n Signup flow\n Checkout\n  \nBut I still can't answer the only question that matters:\n Why are they leaving?\n Every analytics tool seems great at showing what happened.\n None of them tell me what I should change next.\n Am I missing something?\n How do you go from:\n \"Users drop off here\" to \"Here's the exact thing I should fix\"?\n Curious how other SaaS f",
+    "tags": [
+      "pain-point",
+      "startup-idea",
+      "saas",
+      "marketing"
+    ],
+    "relevanceScore": 0,
+    "raw": {
+      "title": "Hotjar is showing me where users drop off. But I still have no idea what to actually fix",
+      "link": "https://www.reddit.com/r/SaaS/comments/1trg4si/hotjar_is_showing_me_where_users_drop_off_but_i/",
+      "pubDate": "2026-05-29T21:23:44.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 4,
+      "saasScore": 2,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -0.1,
+      "reasons": [
+        "PromoPenalty: matched /\\bpricing\\b/i (-5)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "SaaS: matched saas keyword (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-forbarcelona",
+    "title": "I built a map-first event platform for Barcelona, looking for people to test it before soft release",
+    "url": "https://www.reddit.com/r/SideProject/comments/1tri2m2/i_built_a_mapfirst_event_platform_for_barcelona/",
+    "source": "Reddit SideProject",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:39:31.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.641Z",
+    "summary": "Hello all, \n I've spent the past year (nights and weekends) building EventMaps, a map-first way to find events in Barcelona. The map is the main view, with events as pins and festivals as highlighted areas over the neighborhoods they're in. I built it because every events site I tried buried the \"where\" under endless lists.\n I'm looking for people to test it out to have some general thoughts on it and smoke test it.\n It's in beta with payments in test mode, so you can run the whole thing risk-fr",
+    "tags": [
+      "pain-point",
+      "startup-idea",
+      "launch"
+    ],
+    "relevanceScore": -2,
+    "raw": {
+      "title": "I built a map-first event platform for Barcelona, looking for people to test it before soft release",
+      "link": "https://www.reddit.com/r/SideProject/comments/1tri2m2/i_built_a_mapfirst_event_platform_for_barcelona/",
+      "pubDate": "2026-05-29T22:39:31.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 4,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -2.3,
+      "reasons": [
+        "PromoPenalty: matched /\\bi built\\b/i (-5)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-lorgameimade",
+    "title": "the relativist. — a small Android color game I made, looking for first-look feedback",
+    "url": "https://www.reddit.com/r/SideProject/comments/1trfwks/the_relativist_a_small_android_color_game_i_made/",
+    "source": "Reddit SideProject",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:15:22.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.642Z",
+    "summary": "I built a small Android game for people who love color — designers, painters, photographers, anyone who already notices that the same swatch looks different depending on what surrounds it. It's called the relativist.\n The loop: you see one target color and three color strips, each sitting on a different colored background. Your job is to tune three chips with H/S/L sliders so all three visually match the target. But the backgrounds deceive the eye, so you compensate — and the score is measured a",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": -2,
+    "raw": {
+      "title": "the relativist. — a small Android color game I made, looking for first-look feedback",
+      "link": "https://www.reddit.com/r/SideProject/comments/1trfwks/the_relativist_a_small_android_color_game_i_made/",
+      "pubDate": "2026-05-29T21:15:22.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -2.3,
+      "reasons": [
+        "PromoPenalty: matched /\\bi built\\b/i (-5)",
+        "Pain: matched painPoint keyword (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-henihaveaphp",
+    "title": "Can I make an app with Kotlin when I have a PHP website?",
+    "url": "https://www.reddit.com/r/webdev/comments/1trg43i/can_i_make_an_app_with_kotlin_when_i_have_a_php/",
+    "source": "Reddit WebDev",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T21:23:04.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.766Z",
+    "summary": "I have a PHP and MySQL website that I built myself and I want to make an app for my website. I am currently running an app with website2native app or hybrid if you know what that is.\n Do you recommend me learning a language like Dart to make apps or should I focus on PHP?\n    submitted by    /u/FarrisFahad  \n [link]   [comments]",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": -2,
+    "raw": {
+      "title": "Can I make an app with Kotlin when I have a PHP website?",
+      "link": "https://www.reddit.com/r/webdev/comments/1trg43i/can_i_make_an_app_with_kotlin_when_i_have_a_php/",
+      "pubDate": "2026-05-29T21:23:04.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 3,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -2.3,
+      "reasons": [
+        "PromoPenalty: matched /\\bi built\\b/i (-5)",
+        "Pain: matched \"recommend\" (+3)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-careerthread",
+    "title": "Quarterly Career Thread",
+    "url": "https://www.reddit.com/r/ProductManagement/comments/1rumhq8/quarterly_career_thread/",
+    "source": "Reddit ProductManagement",
+    "sourceType": "reddit",
+    "publishedAt": "2026-03-15T19:00:33.000Z",
+    "fetchedAt": "2026-05-30T00:29:36.136Z",
+    "summary": "For all career related questions - how to get into product management, resume review requests, interview help, etc.\n    submitted by    /u/mister-noggin  \n [link]   [comments]",
+    "tags": [],
+    "relevanceScore": -2,
+    "raw": {
+      "title": "Quarterly Career Thread",
+      "link": "https://www.reddit.com/r/ProductManagement/comments/1rumhq8/quarterly_career_thread/",
+      "pubDate": "2026-03-15T19:00:33.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": -5,
+      "finalScore": -2.5,
+      "reasons": [
+        "Startup: Reddit source (+2)"
+      ]
+    }
+  },
+  {
+    "id": "reddit-retheyhappen",
+    "title": "Rejections SUCK. Catch them before they happen",
+    "url": "https://www.reddit.com/r/nocode/comments/1trhubs/rejections_suck_catch_them_before_they_happen/",
+    "source": "Reddit NoCode",
+    "sourceType": "reddit",
+    "publishedAt": "2026-05-29T22:30:08.000Z",
+    "fetchedAt": "2026-05-30T00:29:30.345Z",
+    "summary": "Hey everyone, \n I was getting tired of the multiple rejections by Apple for the dumbest reasons before my app got approved.\n So, I built a tool that audits your app against Apple's guidelines to flag any potential causes for a rejection. It even lets you copy the issues to a prompt to use with your favourite coding agent. \n It's totally free to audit your app. The audit is part of a bigger, paid for product that automates app store submission + handles rejections. If you just want to use the aud",
+    "tags": [
+      "startup-idea",
+      "new-tech"
+    ],
+    "relevanceScore": -4,
+    "raw": {
+      "title": "Rejections SUCK. Catch them before they happen",
+      "link": "https://www.reddit.com/r/nocode/comments/1trhubs/rejections_suck_catch_them_before_they_happen/",
+      "pubDate": "2026-05-29T22:30:08.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 2,
+      "promoPenalty": 5,
+      "junkPenalty": 0,
+      "painScore": 0,
+      "startupScore": 4,
+      "saasScore": 0,
+      "trendScore": 2,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -3.9,
+      "reasons": [
+        "Specificity (Generic): matched /\\baudit\\b/i (+2)",
+        "PromoPenalty: matched /\\bi built\\b/i (-5)",
+        "Startup: Reddit source (+2)",
+        "Startup: matched startupIdea keyword (+2)",
+        "Trend: matched newTech keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rsearch-roachingpart",
+    "title": "AI End Times Chat and How We Are Approaching - Part One-",
+    "url": "https://www.reddit.com/r/u_Itchy_Photo_8394/comments/1trkh3g/ai_end_times_chat_and_how_we_are_approaching_part/",
+    "source": "Alternative to SaaS",
+    "sourceType": "reddit_search",
+    "category": "competitor-gap",
+    "publishedAt": "2026-05-30T00:21:24.000Z",
+    "fetchedAt": "2026-05-30T00:29:26.404Z",
+    "summary": "As a Bible believing Christian I entered a discussion with AI on iphone. I don't believe I steered it into any of its answers. Aside from my intro. I asked probing questions and gave my understanding. I'll let you decide as that is a given. I will say repent as time is running out and you never know how much actual time you have to accept Jesus believe in His ressurection and ask forgivness as a sinner. This I know is long and so read to see where we are headed...Note that I am keeping the intro",
+    "tags": [
+      "pain-point"
+    ],
+    "relevanceScore": -21,
+    "raw": {
+      "title": "AI End Times Chat and How We Are Approaching - Part One-",
+      "link": "https://www.reddit.com/r/u_Itchy_Photo_8394/comments/1trkh3g/ai_end_times_chat_and_how_we_are_approaching_part/",
+      "pubDate": "2026-05-30T00:21:24.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 0,
+      "junkPenalty": 8,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 0,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -21.5,
+      "reasons": [
+        "JunkPenalty: user profile/url (-8)",
+        "Startup: Reddit source (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  },
+  {
+    "id": "rsearch-restingagain",
+    "title": "ASX is starting to look interesting again.",
+    "url": "https://www.reddit.com/r/ASXValueAndMoats/comments/1trjg79/asx_is_starting_to_look_interesting_again/",
+    "source": "Too expensive software",
+    "sourceType": "reddit_search",
+    "category": "pricing-pain",
+    "publishedAt": "2026-05-29T23:37:20.000Z",
+    "fetchedAt": "2026-05-30T00:29:28.323Z",
+    "summary": "The stock has been absolutely smashed after management announced significantly higher technology spending, accelerated software write downs and ongoing fallout from the failed CHESS replacement project. But the market may now be pricing in a worst case scenario.\n At current prices ASX is trading on:\n • PE: 17.2x\n • EV/EBITDA: 6.5x\n • FCF Yield: 6.0%\n • Dividend Yield: 4.9%\n • Net Cash: $4.58 billion\n For context, ASX has historically traded on 20 to 35x earnings and 11 to 19x EV/EBITDA. Today it",
+    "tags": [
+      "marketing",
+      "pain-point"
+    ],
+    "relevanceScore": -36,
+    "raw": {
+      "title": "ASX is starting to look interesting again.",
+      "link": "https://www.reddit.com/r/ASXValueAndMoats/comments/1trjg79/asx_is_starting_to_look_interesting_again/",
+      "pubDate": "2026-05-29T23:37:20.000Z"
+    },
+    "scores": {
+      "buyerIntentScore": 0,
+      "workflowContextScore": 0,
+      "specificityScore": 0,
+      "promoPenalty": 5,
+      "junkPenalty": 10,
+      "painScore": 0,
+      "startupScore": 2,
+      "saasScore": 0,
+      "trendScore": 0,
+      "devtoolScore": 0,
+      "marketingScore": 2,
+      "authorityScore": 0,
+      "recencyScore": 5,
+      "finalScore": -36.5,
+      "reasons": [
+        "PromoPenalty: matched /\\bpricing\\b/i (-5)",
+        "JunkPenalty: matched /\\bstock\\b|\\bcrypto\\b|\\bprice prediction\\b/i (-10)",
+        "Startup: Reddit source (+2)",
+        "Marketing: matched marketing keyword (+2)",
+        "Recency: published within 24h (+5)"
+      ]
+    }
+  }
+]

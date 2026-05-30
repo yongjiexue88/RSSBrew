@@ -11,16 +11,25 @@ function normalizeTitle(title: string): string {
     .trim();
 }
 
+function titleFingerprint(title: string): string {
+  return normalizeTitle(title)
+    .split(' ')
+    .filter((w) => w.length > 3)
+    .sort()
+    .join(' ');
+}
+
 /**
  * Deduplicate items:
  * - By URL within the current batch (keep first occurrence)
- * - By normalized Title within the current batch
+ * - By normalized Title within the current batch (exact and fuzzy)
  * - Against history URLs (remove items whose URL is already in history)
  */
 export function dedupeItems(items: StandardItem[], history: HistoryData): StandardItem[] {
   const before = items.length;
   const seenUrls = new Set<string>();
   const seenTitleKeys = new Set<string>();
+  const seenFuzzyKeys = new Set<string>();
   const historyUrls = new Set(Object.keys(history.urls));
 
   const deduped = items.filter((item) => {
@@ -37,14 +46,21 @@ export function dedupeItems(items: StandardItem[], history: HistoryData): Standa
     }
 
     // Check Title within current batch
-    const titleKey = normalizeTitle(item.title);
-    if (titleKey && seenTitleKeys.has(titleKey)) {
-      logger.debug('Dropping duplicate Title item in batch', { title: item.title });
+    const exactKey = normalizeTitle(item.title);
+    const fuzzyKey = titleFingerprint(item.title);
+
+    if (exactKey && seenTitleKeys.has(exactKey)) {
+      logger.debug('Dropping duplicate exact Title item in batch', { title: item.title });
+      return false;
+    }
+    if (fuzzyKey && seenFuzzyKeys.has(fuzzyKey)) {
+      logger.debug('Dropping duplicate fuzzy Title item in batch', { title: item.title });
       return false;
     }
 
     seenUrls.add(item.url);
-    if (titleKey) seenTitleKeys.add(titleKey);
+    if (exactKey) seenTitleKeys.add(exactKey);
+    if (fuzzyKey) seenFuzzyKeys.add(fuzzyKey);
     return true;
   });
 
